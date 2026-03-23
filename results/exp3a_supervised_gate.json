@@ -1,0 +1,482 @@
+{
+  "baseline": {
+    "accuracy": 0.9,
+    "avg_steps": 32.0,
+    "correct": 18,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_02",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_03",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_07",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_09",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_10",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_01",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_02",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_04",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_05",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_01",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "correct": false,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_04",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "correct": false,
+        "steps": 32,
+        "halted": false
+      }
+    ]
+  },
+  "heuristic": {
+    "accuracy": 0.85,
+    "avg_steps": 129.25,
+    "correct": 17,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "correct": true,
+        "steps": 1,
+        "halted": true
+      },
+      {
+        "id": "math_02",
+        "correct": true,
+        "steps": 34,
+        "halted": true
+      },
+      {
+        "id": "math_03",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "correct": false,
+        "steps": 14,
+        "halted": true
+      },
+      {
+        "id": "math_07",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "correct": true,
+        "steps": 13,
+        "halted": true
+      },
+      {
+        "id": "math_09",
+        "correct": false,
+        "steps": 11,
+        "halted": true
+      },
+      {
+        "id": "math_10",
+        "correct": true,
+        "steps": 17,
+        "halted": true
+      },
+      {
+        "id": "logic_01",
+        "correct": true,
+        "steps": 21,
+        "halted": true
+      },
+      {
+        "id": "logic_02",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "correct": true,
+        "steps": 18,
+        "halted": true
+      },
+      {
+        "id": "logic_04",
+        "correct": true,
+        "steps": 2,
+        "halted": true
+      },
+      {
+        "id": "logic_05",
+        "correct": true,
+        "steps": 110,
+        "halted": true
+      },
+      {
+        "id": "fact_01",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "correct": true,
+        "steps": 40,
+        "halted": true
+      },
+      {
+        "id": "fact_04",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "correct": false,
+        "steps": 256,
+        "halted": false
+      }
+    ]
+  },
+  "learned": {
+    "accuracy": 0.85,
+    "avg_steps": 136.55,
+    "correct": 17,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "correct": true,
+        "steps": 1,
+        "halted": true
+      },
+      {
+        "id": "math_02",
+        "correct": true,
+        "steps": 34,
+        "halted": true
+      },
+      {
+        "id": "math_03",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "correct": false,
+        "steps": 14,
+        "halted": true
+      },
+      {
+        "id": "math_07",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "correct": true,
+        "steps": 13,
+        "halted": true
+      },
+      {
+        "id": "math_09",
+        "correct": false,
+        "steps": 11,
+        "halted": true
+      },
+      {
+        "id": "math_10",
+        "correct": true,
+        "steps": 17,
+        "halted": true
+      },
+      {
+        "id": "logic_01",
+        "correct": true,
+        "steps": 21,
+        "halted": true
+      },
+      {
+        "id": "logic_02",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "correct": true,
+        "steps": 18,
+        "halted": true
+      },
+      {
+        "id": "logic_04",
+        "correct": true,
+        "steps": 2,
+        "halted": true
+      },
+      {
+        "id": "logic_05",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_01",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "correct": true,
+        "steps": 40,
+        "halted": true
+      },
+      {
+        "id": "fact_04",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "correct": false,
+        "steps": 256,
+        "halted": false
+      }
+    ]
+  },
+  "training_history": {
+    "loss": [
+      4.606217112178925,
+      0.5970950765528429,
+      0.3176436917572742,
+      0.1768717621152497,
+      0.07777434765348772,
+      0.03757828536662347,
+      0.026077138611663418,
+      0.02045594250055055,
+      0.015846819298661764,
+      0.011814490483617738,
+      0.010665443475186897,
+      0.007757034127789932,
+      0.00623035766371502,
+      0.005469029092504422,
+      0.004056073871061737,
+      0.0036287753228506528,
+      0.003076055090268677,
+      0.0026218958469005653,
+      0.002301092125445913,
+      0.002082943532476372
+    ],
+    "accuracy": [
+      0.5797807551766139,
+      0.8989037758830695,
+      0.9585870889159561,
+      0.9719853836784409,
+      0.9926918392204629,
+      0.9963459196102314,
+      0.9963459196102314,
+      0.997563946406821,
+      0.9963459196102314,
+      0.9987819732034104,
+      0.9987819732034104,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision": [
+      0.01729106628242075,
+      0.0989010989010989,
+      0.21428571428571427,
+      0.30303030303030304,
+      0.625,
+      0.7692307692307693,
+      0.7692307692307693,
+      0.8333333333333334,
+      0.7692307692307693,
+      0.9090909090909091,
+      0.9090909090909091,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      0.6,
+      0.9,
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "metadata": {
+    "experiment": "exp3a_supervised_gate",
+    "timestamp": "2026-02-22T05:40:05.234354",
+    "gate_params": 1049089,
+    "confidence_threshold": 0.8
+  }
+}

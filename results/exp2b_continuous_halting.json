@@ -1,0 +1,4194 @@
+{
+  "baseline": {
+    "accuracy": 0.9,
+    "avg_steps": 32.0,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 1081\nQuestion: What is 23 * 47?\nAnswer: 1081\nOkay, let's see. I need to multiply 23 by 47. Hmm, I r"
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let m"
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 613\nSo, 1000 minus 387 equals 613. The answer is 613.\nYou are a helpful assistant. Let me know if y"
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 "
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "answer": " no\n\nThe reasoning is that while all cats are animals, the statement that some animals are pets does"
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "answer": " The is 2, 6, 18, 54, 162, 486, 1458, 4374, 1234, 3702, 1111, 333, 11"
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "answer": " C\nQuestion: The first day of the month is a Sunday. What day of the week is the 25th day of the mon"
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "correct": false,
+        "steps": 32,
+        "answer": " Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?"
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "correct": false,
+        "steps": 32,
+        "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+      }
+    ]
+  },
+  "confidence": {
+    "0.5": {
+      "accuracy": 0.9,
+      "avg_steps": 13.9,
+      "correct": 18,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 25,
+          "halted": true,
+          "answer": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let m"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 6,
+          "halted": true,
+          "answer": " 613\nStep-by-step explanation: To subtract 387 from 1000, you can break it down as follows:\nFirst, s"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " 12\n\nQuestion: What is 12 * 12?\nAnswer: 144\n\nQuestion: What is 144 - 84?\nAnswer: 60\n\nQuestion: What "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 squared?\nAnswer: 225\n\nQuestion: What is 15 squared?\nAnswer: 225\n\nQuestion"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 5,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 100 positi"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 11,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, how"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " No.\n\nThe conclusion that all cats are pets cannot be definitively drawn from the given premises. Wh"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 9,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. The pattern is that each number is multiplied by 3 to get t"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 86,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 19,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the largest planet in our solar system?\nAnswer: Jupiter.\n\nQuestion: Who w"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": false,
+          "steps": 3,
+          "halted": true,
+          "answer": " The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 50,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.6": {
+      "accuracy": 0.95,
+      "avg_steps": 25.4,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 25,
+          "halted": true,
+          "answer": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let m"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 7,
+          "halted": true,
+          "answer": " 613\n\nStep-by-step explanation:\nStart with 1000.\nSubtract 300: 1000 - 300 = 700.\nSubtract 80: 700 - "
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 19,
+          "halted": true,
+          "answer": " 12\n\nOkay, let me try to figure out what 84 divided by 7 is. Hmm, division can sometimes be tricky, "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 28,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 cubed?\nAnswer: 3375\n\nQuestion: What is 15 to the 4th power?\nAnswer: 50625"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 5,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 100 positi"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " No.\n\nThe conclusion that all cats are pets cannot be definitively drawn from the given premises. Wh"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 18,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. This sequence is formed by multiplying each number by 3. So"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 86,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 19,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the largest planet in our solar system?\nAnswer: Jupiter.\n\nQuestion: Who w"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 25,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 46,
+          "halted": true,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 168,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.7": {
+      "accuracy": 0.85,
+      "avg_steps": 68.15,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 25,
+          "halted": true,
+          "answer": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let m"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 7,
+          "halted": true,
+          "answer": " 613\n\nStep-by-step explanation:\nStart with 1000.\nSubtract 300: 1000 - 300 = 700.\nSubtract 80: 700 - "
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 57,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 87,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 21,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All cats are animals. All animals are pets. Can we conclude that all cats are pets? "
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 18,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. This sequence is formed by multiplying each number by 3. So"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 86,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " Paris.\nQuestion: What is the capital of Italy?\nAnswer: Rome.\nQuestion: What is the capital of Spain"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 173,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.8": {
+      "accuracy": 0.85,
+      "avg_steps": 129.25,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 21,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All cats are animals. All animals are pets. Can we conclude that all cats are pets? "
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 18,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. This sequence is formed by multiplying each number by 3. So"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 110,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.9": {
+      "accuracy": 0.85,
+      "avg_steps": 168.5,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 36,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 140,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 "
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 21,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All cats are animals. All animals are pets. Can we conclude that all cats are pets? "
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.95": {
+      "accuracy": 0.9,
+      "avg_steps": 209.6,
+      "correct": 18,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 32,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 51,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    }
+  },
+  "convergence": {
+    "0.9": {
+      "accuracy": 0.85,
+      "avg_steps": 35.85,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 91,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 32,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 cubed?\nAnswer: 3375\n\nQuestion: What is 15 to the 4th power?\nAnswer: 50625"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " Answer: Answer: Answer: Answer: Answer: Answer: Answer: Answer: Answer: Answer: Answer: Answer: Ans"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 32,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 47,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 68,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 15,
+          "halted": true,
+          "answer": " All cats are pets. Can we conclude that all cats are pets? Answer: yes or no. Answer: yes or no. An"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 39,
+          "halted": true,
+          "answer": " Not necessarily. The ground is wet, but that doesn't mean it rained. The ground is wet. Did it nece"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 39,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the next number in the sequence: 1, 4, 9"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 45,
+          "halted": true,
+          "answer": " C\nQuestion: D is taller than A. A is taller than B. Who is the shortest?\nAnswer: B\nQuestion: B is t"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 22,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 28,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 57,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": false,
+          "steps": 29,
+          "halted": true,
+          "answer": " The answer is: The answer is: The answer is: The\n\n.bunifuFlatButton\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 28,
+          "halted": true,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 28,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.93": {
+      "accuracy": 0.95,
+      "avg_steps": 41.65,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 91,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 42,
+          "halted": true,
+          "answer": " 445"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 35,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 28,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 cubed?\nAnswer: 3375\n\nQuestion: What is 15 to the 4th power?\nAnswer: 50625"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 66,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 29,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 71,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, ho"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 16,
+          "halted": true,
+          "answer": " yes or no.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 42,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 43,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 46,
+          "halted": true,
+          "answer": " C\nQuestion: D is taller than A. A is taller than C. Who is the shortest?\nAnswer: C\nQuestion: B is t"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 23,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 57,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 47,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the play that is about a "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 29,
+          "halted": true,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 28,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.95": {
+      "accuracy": 0.95,
+      "avg_steps": 54.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 96,
+          "halted": true,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 44,
+          "halted": true,
+          "answer": " 445"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 29,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 35,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 28,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 cubed?\nAnswer: 3375\n\nQuestion: What is 15 to the 4th power?\nAnswer: 50625"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 70,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 29,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 49,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 72,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, ho"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 110,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 130,
+          "halted": true,
+          "answer": " not necessarily\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily r"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 43,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 51,
+          "halted": true,
+          "answer": " C\n\nQuestion: The average of 10 numbers is 8. If the numbers 5 and 7 are added, what is the new aver"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 23,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 38,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 58,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 68,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 30,
+          "halted": true,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 29,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.97": {
+      "accuracy": 0.9,
+      "avg_steps": 55.85,
+      "correct": 18,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 96,
+          "halted": true,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 45,
+          "halted": true,
+          "answer": " 445"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 30,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 38,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 84 divided by 7?\nAnswer: 12\nQuestion: What is 84 divided by 7?\nAnswer: 12\nQues"
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 30,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 71,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 30,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 50,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 72,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, ho"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 111,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 131,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 44,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 51,
+          "halted": true,
+          "answer": " C\n\nQuestion: The average of 10 numbers is 8. If the numbers 5 and 7 are added, what is the new aver"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 44,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 69,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 70,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": false,
+          "steps": 34,
+          "halted": true,
+          "answer": " The chemical symbol for water is H\u2082O. It consists of two hydrogen atoms and one oxygen atom.\nQuesti"
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 29,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.98": {
+      "accuracy": 0.9,
+      "avg_steps": 59.7,
+      "correct": 18,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 97,
+          "halted": true,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 46,
+          "halted": true,
+          "answer": " 445"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 30,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 31,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 92,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 64,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 50,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 49,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 73,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, ho"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 116,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 132,
+          "halted": true,
+          "answer": " not necessarily\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily r"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 44,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 56,
+          "halted": true,
+          "answer": " C\nExplanation: From the given information, we can form a chain of height comparisons: A > B > C. Th"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 24,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 45,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 70,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 71,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": false,
+          "steps": 34,
+          "halted": true,
+          "answer": " The chemical symbol for water is H\u2082O. It consists of two hydrogen atoms and one oxygen atom.\nQuesti"
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 30,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.99": {
+      "accuracy": 0.95,
+      "avg_steps": 72.65,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 101,
+          "halted": true,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " 445"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 65,
+          "halted": true,
+          "answer": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: W"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 85,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 32,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 95,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 116,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 51,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 52,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 5?\nAnswer: 243\n\nQuestion: What is 3 to the power of 6?\nAnsw"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 75,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, ho"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 140,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 195,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 57,
+          "halted": true,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 27,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 48,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 76,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 73,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 36,
+          "halted": true,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 33,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    }
+  },
+  "entropy": {
+    "0.5": {
+      "accuracy": 0.85,
+      "avg_steps": 191.25,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 140,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 "
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "1.0": {
+      "accuracy": 0.85,
+      "avg_steps": 136.85,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 36,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 140,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 "
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 21,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All cats are animals. All animals are pets. Can we conclude that all cats are pets? "
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 114,
+          "halted": true,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " Paris.\nQuestion: What is the capital of Italy?\nAnswer: Rome.\nQuestion: What is the capital of Spain"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "1.5": {
+      "accuracy": 0.85,
+      "avg_steps": 86.7,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 34,
+          "halted": true,
+          "answer": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: "
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 7,
+          "halted": true,
+          "answer": " 613\n\nStep-by-step explanation:\nStart with 1000.\nSubtract 300: 1000 - 300 = 700.\nSubtract 80: 700 - "
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 143,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 14,
+          "halted": true,
+          "answer": " If a shirt costs $45 and is 20% off, what is the sale price in dollars?\nAnswer: If a shirt costs $4"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 21,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All cats are animals. All animals are pets. Can we conclude that all cats are pets? "
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 18,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. This sequence is formed by multiplying each number by 3. So"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 110,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " Paris.\nQuestion: What is the capital of Italy?\nAnswer: Rome.\nQuestion: What is the capital of Spain"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "2.0": {
+      "accuracy": 0.85,
+      "avg_steps": 52.35,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 25,
+          "halted": true,
+          "answer": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let m"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 143,
+          "halted": true,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 cubed?\nAnswer: 3375\n\nQuestion: What is 15 to the 4th power?\nAnswer: 50625"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 13,
+          "halted": true,
+          "answer": " The sale price in dollars is $45.\nAnswer: The sale price in dollars is $45.\nAnswer: The sale price "
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 87,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 13,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " What is 3 to the power of 4?\nAnswer: What is 3 to the power of 4?\nAnswer: What is 3 to the power of"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 11,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 18,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. This sequence is formed by multiplying each number by 3. So"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 110,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 20,
+          "halted": true,
+          "answer": " Paris.\nQuestion: What is the capital of Italy?\nAnswer: Rome.\nQuestion: What is the capital of Spain"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 40,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "3.0": {
+      "accuracy": 0.85,
+      "avg_steps": 8.7,
+      "correct": 17,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": false,
+          "steps": 11,
+          "halted": true,
+          "answer": " 84 / 7\n\nQuestion: What is 84 / 7?\n\nAnswer: 84 / 7\n\nQuestion: What is 84 / 7?\n\nAnswer: 84 / 7\n\nQuest"
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by 15?\nAnswer: 225"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 5,
+          "halted": true,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 17,
+          "halted": true,
+          "answer": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 100 positi"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length and width. So, 12 multiplied by 5 e"
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 11,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, how"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. Each number is multiplied by 3 to get the next number. So, "
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the mo"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 86,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 19,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the largest planet in our solar system?\nAnswer: Jupiter.\n\nQuestion: Who w"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": false,
+          "steps": 3,
+          "halted": true,
+          "answer": " The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 5,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America"
+        }
+      ]
+    },
+    "5.0": {
+      "accuracy": 0.75,
+      "avg_steps": 1.65,
+      "correct": 15,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: W"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 9,
+          "halted": true,
+          "answer": " 12\n\nQuestion: What is 12 * 12?\nAnswer: 144\n\nQuestion: What is 144 - 84?\nAnswer: 60\n\nQuestion: What "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by 15?\nAnswer: 225"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": false,
+          "steps": 1,
+          "halted": true,
+          "answer": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": false,
+          "steps": 2,
+          "halted": true,
+          "answer": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " The area of a rectangle is calculated by multiplying its length and width. So, 12 multiplied by 5 e"
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is"
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " The next number in the sequence is 162. Each number is multiplied by 3 to get the next number. So, "
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": false,
+          "steps": 1,
+          "halted": true,
+          "answer": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 2,
+          "halted": true,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 1,
+          "halted": true,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 3,
+          "halted": true,
+          "answer": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the "
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": false,
+          "steps": 1,
+          "halted": true,
+          "answer": " The chemical symbol for water is H\u2082O. It consists of two hydrogen atoms and one oxygen atom, repres"
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 1,
+          "halted": true,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America"
+        }
+      ]
+    }
+  },
+  "delta_norm": {
+    "0.1": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.3": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "0.5": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "1.0": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "2.0": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    },
+    "5.0": {
+      "accuracy": 0.95,
+      "avg_steps": 256.0,
+      "correct": 19,
+      "total": 20,
+      "details": [
+        {
+          "id": "math_01",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 1081\nStep-by-step explanation:\nWe can multiply 23 by 47 by breaking it down into smaller steps.\nFir"
+        },
+        {
+          "id": "math_02",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 445.00000000000006"
+        },
+        {
+          "id": "math_03",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 613. So, the answer is 613. But wait, let me check again. 1000 minus 300 is 700, then minus 80 is 6"
+        },
+        {
+          "id": "math_04",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is "
+        },
+        {
+          "id": "math_05",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer:"
+        },
+        {
+          "id": "math_06",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer"
+        },
+        {
+          "id": "math_07",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the s"
+        },
+        {
+          "id": "math_08",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by "
+        },
+        {
+          "id": "math_09",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswe"
+        },
+        {
+          "id": "math_10",
+          "category": "math",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags"
+        },
+        {
+          "id": "logic_01",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are ani"
+        },
+        {
+          "id": "logic_02",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily "
+        },
+        {
+          "id": "logic_03",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The next number in the sequence is 162.\n\nQuestion: What is the pattern in the sequence: 2, 6, 18, 5"
+        },
+        {
+          "id": "logic_04",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is "
+        },
+        {
+          "id": "logic_05",
+          "category": "logic",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude "
+        },
+        {
+          "id": "fact_01",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spa"
+        },
+        {
+          "id": "fact_02",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a v"
+        },
+        {
+          "id": "fact_03",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the main character in the"
+        },
+        {
+          "id": "fact_04",
+          "category": "factual",
+          "correct": true,
+          "steps": 256,
+          "halted": false,
+          "answer": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The "
+        },
+        {
+          "id": "fact_05",
+          "category": "factual",
+          "correct": false,
+          "steps": 256,
+          "halted": false,
+          "answer": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, an"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "experiment": "exp2b_continuous_halting",
+    "timestamp": "2026-02-22T05:07:59.304140",
+    "max_continuous_steps": 256,
+    "mid_layer_index": 12
+  }
+}

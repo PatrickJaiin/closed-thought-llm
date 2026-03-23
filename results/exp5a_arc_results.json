@@ -1,0 +1,3697 @@
+{
+  "config_A": {
+    "config": "A",
+    "description": "Normal prompting (no recurrence)",
+    "accuracy": 0.84,
+    "avg_steps": 0.0,
+    "correct": 42,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\nQuestion: Which of the following is a natural cause",
+        "steps": 0
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows current to flow",
+        "steps": 0
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 0
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 0
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 0
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 0
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nExplanation: As the velocity of a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: What is the role of the nucleus in",
+        "steps": 0
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier than the others",
+        "steps": 0
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nQuestion: Which of the following is not a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 0
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nQuestion: What is the main purpose of the snake",
+        "steps": 0
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which is the most likely reason that using energy generated from wind",
+        "steps": 0
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 0
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: In the",
+        "steps": 0
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 0
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change involves a chemical reaction that",
+        "steps": 0
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 0
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 0
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\n\nQuestion: What is the",
+        "steps": 0
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nThe question is about estimating the number of bundles of",
+        "steps": 0
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 0
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 0
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 0
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 0
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nQuestion: Which of the following is not a function of",
+        "steps": 0
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 0
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 0
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: A solution is a",
+        "steps": 0
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 0
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 0
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\nThe latest sunset occurs during the summer. The time of sunset",
+        "steps": 0
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nThe battery in a flashlight is a chemical",
+        "steps": 0
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a feature",
+        "steps": 0
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nExplanation: When only one variable is",
+        "steps": 0
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nQuestion: Which of the following",
+        "steps": 0
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 0
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nExplanation: A",
+        "steps": 0
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\nLeopard's opening chant suggests that he is confident. The",
+        "steps": 0
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 0
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 0
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 0
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nQuestion: The",
+        "steps": 0
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\nThe formation of fossil fuels takes the longest time",
+        "steps": 0
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nExplanation: Reverse osmosis is a water",
+        "steps": 0
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question is about why watering plants and grass in the early morning is",
+        "steps": 0
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\nQuestion: Which",
+        "steps": 0
+      }
+    ]
+  },
+  "metadata": {
+    "experiment": "exp5a_ablation",
+    "benchmark": "arc",
+    "timestamp": "2026-02-23T06:34:50.023493"
+  },
+  "config_B": {
+    "config": "B",
+    "description": "Fixed N=32 mid-layer loop",
+    "accuracy": 0.76,
+    "avg_steps": 32.0,
+    "correct": 38,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\nQuestion: Which of the following is a natural cause",
+        "steps": 32
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: Current moving through a circuit is stopped with a\n",
+        "steps": 32
+      },
+      {
+        "id": "arc_0002",
+        "correct": false,
+        "predicted": "!",
+        "expected": "B",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 32
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 32
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 32
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 32
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 32
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nExplanation: As the velocity of a",
+        "steps": 32
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: What is the role of the nucleus in",
+        "steps": 32
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier after 6",
+        "steps": 32
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nExplanation: A food nutrition label typically includes information",
+        "steps": 32
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 32
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C\nQuestion: Many grass snakes are green. The color of the snake most",
+        "steps": 32
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which is the most likely reason that using energy generated from wind",
+        "steps": 32
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 32
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 32
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: In the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nQuestion: Which of the following characteristics is a",
+        "steps": 32
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 32
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a primary factor that contributes to the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\nQuestion: What are the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0022",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) 43\nAnswer: B) 43\nAnswer:",
+        "steps": 32
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 32
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question asks for an opinion about the heart. Let's analyze each",
+        "steps": 32
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 32
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "!",
+        "expected": "B",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 32
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 32
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nExplanation: A child inherits physical characteristics from their parents,",
+        "steps": 32
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) deflect\nA) absorb\nB) deflect\nC) reflect\n",
+        "steps": 32
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 32
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: When powdered tea is",
+        "steps": 32
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nQuestion: The community decided to construct a large-scale plant to remove salt",
+        "steps": 32
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 32
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\nExplanation: In the summer, the sun sets later in the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nThe battery in a flashlight is a chemical",
+        "steps": 32
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nExplanation: The feature of Great Basin National Park",
+        "steps": 32
+      },
+      {
+        "id": "arc_0037",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D\nAnswer: D\nAnswer: D\nAnswer: D\nAnswer:",
+        "steps": 32
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nExplanation: A simple machine makes",
+        "steps": 32
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nSodium, chromium, and copper are",
+        "steps": 32
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nAnswer: C",
+        "steps": 32
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\n\nQuestion: What is the main idea of the passage?\nA",
+        "steps": 32
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 32
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 32
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 32
+      },
+      {
+        "id": "arc_0045",
+        "correct": false,
+        "predicted": "C",
+        "expected": "D",
+        "raw_answer": " C\nQuestion: The The The The The The The The The The The The",
+        "steps": 32
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\n\nQuestion: Which process in the carbon cycle takes",
+        "steps": 32
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nQuestion: Why is reverse osmosis the",
+        "steps": 32
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) Smaller amounts of water evaporate in the cool morning.\nA)",
+        "steps": 32
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\nQuestion: Which",
+        "steps": 32
+      }
+    ]
+  },
+  "config_C": {
+    "config": "C",
+    "description": "Continuous + heuristic confidence@0.6",
+    "accuracy": 0.74,
+    "avg_steps": 15.54,
+    "correct": 37,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " Which weather event is most likely to cause a forest fire?\nAnswer: Which weather",
+        "steps": 5
+      },
+      {
+        "id": "arc_0001",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) wire.\n\n.bunifuFlatButton\nAnswer: A) wire.\nB) battery",
+        "steps": 5
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 3
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 33
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nQuestion: Which",
+        "steps": 20
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which of the following is a type of sedimentary rock?\n",
+        "steps": 82
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 33
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nWhen the velocity of a stream decreases",
+        "steps": 3
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: Which of the following is a function of",
+        "steps": 1
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nQuestion: A student is trying to determine the",
+        "steps": 7
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nExplanation: A food nutrition label typically includes information",
+        "steps": 1
+      },
+      {
+        "id": "arc_0011",
+        "correct": false,
+        "predicted": "C",
+        "expected": "D",
+        "raw_answer": " C) the source of most heat and light energy.\nAnswer: D) the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0012",
+        "correct": false,
+        "predicted": "!",
+        "expected": "C",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 7
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) wind produces less pollution than fossil fuels\nQuestion: Which is the most",
+        "steps": 1
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nQuestion: Which of the following is",
+        "steps": 2
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe temperatures are 31, 2",
+        "steps": 1
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: In the",
+        "steps": 2
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 2
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 256
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 8
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a primary factor that contributes to the",
+        "steps": 1
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\nThe reaction between hydrochlor",
+        "steps": 28
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nAnswer: C) 63\nAnswer:",
+        "steps": 5
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 32
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 3
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 28
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which is an",
+        "steps": 3
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\n\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 28
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nExplanation: Hair style is not a genetic trait, so",
+        "steps": 2
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A\nThe tinted lenses of sunglasses absorb the UV rays of the Sun.",
+        "steps": 5
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nQuestion: Which item can safely be reused after an investigation?\nA)",
+        "steps": 13
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\n\nQuestion: Which of the following",
+        "steps": 4
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 1
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nThe activity that wastes a natural resource is throwing",
+        "steps": 5
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\n\nThe latest sunset occurs during the summer. This is because the",
+        "steps": 76
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nQuestion: Which best describes the transformation of",
+        "steps": 3
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a feature",
+        "steps": 2
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nQuestion: A student wants to determine",
+        "steps": 2
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nA simple machine makes work easier",
+        "steps": 24
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 1
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nQuestion: Which",
+        "steps": 3
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\nQuestion: What is the main idea of the passage?\nA",
+        "steps": 3
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nThe production of geothermal energy requires the presence of hot",
+        "steps": 1
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 11
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 1
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nQuestion: The",
+        "steps": 2
+      },
+      {
+        "id": "arc_0046",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) respiration in animals\nA) emission of waste\nB) res",
+        "steps": 4
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D\nQuestion: In 2014, a break in a storm",
+        "steps": 1
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Why is watering plants and grass in the early morning a way",
+        "steps": 2
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\nQuestion: Which",
+        "steps": 8
+      }
+    ]
+  },
+  "config_H": {
+    "config": "H",
+    "description": "Text CoT baseline (128 tokens)",
+    "accuracy": 0.42,
+    "avg_steps": 128.0,
+    "correct": 21,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\n\nStep-by-Step Explanation:\n1. **Flash",
+        "steps": 128
+      },
+      {
+        "id": "arc_0001",
+        "correct": false,
+        "predicted": "L",
+        "expected": "C",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about what stops",
+        "steps": 128
+      },
+      {
+        "id": "arc_0002",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about estu",
+        "steps": 128
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\n\nLet me think step by step.\nOkay, so the question",
+        "steps": 128
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\n\nStep-by-",
+        "steps": 128
+      },
+      {
+        "id": "arc_0005",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about the formation",
+        "steps": 128
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " \n\nSo, the options are A, B, C, D. \n\nWait",
+        "steps": 128
+      },
+      {
+        "id": "arc_0007",
+        "correct": false,
+        "predicted": "W",
+        "expected": "B",
+        "raw_answer": " \n\nWhen stream velocity decreases, the stream's energy is reduced. This means it",
+        "steps": 128
+      },
+      {
+        "id": "arc_0008",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about the role",
+        "steps": 128
+      },
+      {
+        "id": "arc_0009",
+        "correct": false,
+        "predicted": "L",
+        "expected": "A",
+        "raw_answer": " Let me think step by step.\nOkay, so there are six puppies born at",
+        "steps": 128
+      },
+      {
+        "id": "arc_0010",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " \n\nSo, the question is about what's NOT on a nutrition label. Let",
+        "steps": 128
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\n\nWait, but why not option C? The Sun does provide heat and",
+        "steps": 128
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\n\n**Step-by-Step Explanation:**\n\n1.",
+        "steps": 128
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) wind produces less pollution than fossil fuels\n\nStep-by-Step Explanation:\n",
+        "steps": 128
+      },
+      {
+        "id": "arc_0014",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about chemical changes",
+        "steps": 128
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nFirst, I need to find the median temperature",
+        "steps": 128
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "L",
+        "expected": "A",
+        "raw_answer": " Let me think step by step.\n\nOkay, so the problem is about the hardness",
+        "steps": 128
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\n\nStep-by-Step Explanation:\n1. **",
+        "steps": 128
+      },
+      {
+        "id": "arc_0018",
+        "correct": false,
+        "predicted": "L",
+        "expected": "A",
+        "raw_answer": " \n\nLet me think step by step.\nOkay, so the question is asking which",
+        "steps": 128
+      },
+      {
+        "id": "arc_0019",
+        "correct": false,
+        "predicted": "O",
+        "expected": "A",
+        "raw_answer": " \n\nOkay, so the question is about the primary cause of rainstorms. Let",
+        "steps": 128
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n\n",
+        "steps": 128
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\n\nStep-by-Step Explanation",
+        "steps": 128
+      },
+      {
+        "id": "arc_0022",
+        "correct": false,
+        "predicted": "2",
+        "expected": "C",
+        "raw_answer": " 2000 sq. ft. divided by 100 sq",
+        "steps": 128
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "L",
+        "expected": "D",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is asking which alternative",
+        "steps": 128
+      },
+      {
+        "id": "arc_0024",
+        "correct": false,
+        "predicted": "O",
+        "expected": "B",
+        "raw_answer": " \n\nOkay, so I need to figure out which of the given statements is an",
+        "steps": 128
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\n\nStep-by-Step Explanation:\n1. **Understanding",
+        "steps": 128
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about mangrove",
+        "steps": 128
+      },
+      {
+        "id": "arc_0027",
+        "correct": false,
+        "predicted": "D",
+        "expected": "A",
+        "raw_answer": " D) metamorphosis\n\nStep-by-Step Explanation:\n1. **Under",
+        "steps": 128
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\n\nStep-by-Step Explanation:\n1. Understand the concept",
+        "steps": 128
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "T",
+        "expected": "C",
+        "raw_answer": " \n\nThe tinted lenses of sunglasses primarily **absorb** the UV rays of",
+        "steps": 128
+      },
+      {
+        "id": "arc_0030",
+        "correct": false,
+        "predicted": "L",
+        "expected": "A",
+        "raw_answer": " \n\nLet me think step by step.\nOkay, so the question is about which",
+        "steps": 128
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " \n\nSo, option B says the tea spreads evenly. That aligns with the",
+        "steps": 128
+      },
+      {
+        "id": "arc_0032",
+        "correct": false,
+        "predicted": "L",
+        "expected": "A",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about why the",
+        "steps": 128
+      },
+      {
+        "id": "arc_0033",
+        "correct": false,
+        "predicted": "L",
+        "expected": "C",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about which activity",
+        "steps": 128
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\n\nSo, the answer is A) summer. Because during summer",
+        "steps": 128
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\n\nStep-by-Step Explanation:\n1.",
+        "steps": 128
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\n\nStep-by-Step Explanation:\n1. **",
+        "steps": 128
+      },
+      {
+        "id": "arc_0037",
+        "correct": false,
+        "predicted": "L",
+        "expected": "B",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about an experiment",
+        "steps": 128
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\n\nStep-by-Step Explanation:\n",
+        "steps": 128
+      },
+      {
+        "id": "arc_0039",
+        "correct": false,
+        "predicted": "L",
+        "expected": "C",
+        "raw_answer": " Let me think step by step.\nFirst, I need to recall which elements are",
+        "steps": 128
+      },
+      {
+        "id": "arc_0040",
+        "correct": false,
+        "predicted": "S",
+        "expected": "C",
+        "raw_answer": " \n\nSo, the needle points north because it's aligning with Earth's magnetic",
+        "steps": 128
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\n\nStep-by-Step Explanation:\n1. The term \"chant",
+        "steps": 128
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\n\nStep-by-Step Explanation:\n1. **Understanding Ge",
+        "steps": 128
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "L",
+        "expected": "C",
+        "raw_answer": " Let me think step by step.\nOkay, so the question is about which two",
+        "steps": 128
+      },
+      {
+        "id": "arc_0044",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " \n\nOkay, let's break this down. The question is about why a ch",
+        "steps": 128
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\n\nLet me think",
+        "steps": 128
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\n\nStep-by-Step Explanation:\n1. **",
+        "steps": 128
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\n\nLet me think step by step.\nOkay,",
+        "steps": 128
+      },
+      {
+        "id": "arc_0048",
+        "correct": false,
+        "predicted": "O",
+        "expected": "B",
+        "raw_answer": " \n\nOkay, so the question is about why watering plants in the early morning helps",
+        "steps": 128
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\n\nStep-by-",
+        "steps": 128
+      }
+    ]
+  },
+  "config_I": {
+    "config": "I",
+    "description": "Lys et al. approx (R=3, layer 18)",
+    "accuracy": 0.78,
+    "avg_steps": 3.0,
+    "correct": 39,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe reasoning process:\nOkay, so the question is asking which weather event",
+        "steps": 3
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows current to flow",
+        "steps": 3
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 3
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 3
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: Looking",
+        "steps": 3
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: What is the process that breaks down rock into smaller pieces called",
+        "steps": 3
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 3
+      },
+      {
+        "id": "arc_0007",
+        "correct": false,
+        "predicted": "!",
+        "expected": "B",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 3
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: What is the main role of lysosomes",
+        "steps": 3
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe question is about why one puppy is much heavier than the others after",
+        "steps": 3
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nQuestion: Which of the following is not a",
+        "steps": 3
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 3
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nExplanation: The color of the snake most likely helps",
+        "steps": 3
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) wind produces less pollution than fossil fuels\nQuestion: Which is the most",
+        "steps": 3
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change occurs when",
+        "steps": 3
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "!",
+        "expected": "B",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 3
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: In the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 3
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 3
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 3
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\n\nQuestion: What is the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nThe question is about estimating the number of bundles of",
+        "steps": 3
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 3
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 3
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nQuestion: Which of the following is a benefit of",
+        "steps": 3
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 3
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nExplanation: Hair style is not a genetic trait. It",
+        "steps": 3
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 3
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nQuestion: Which characteristic explains why",
+        "steps": 3
+      },
+      {
+        "id": "arc_0032",
+        "correct": false,
+        "predicted": "T",
+        "expected": "A",
+        "raw_answer": " The community needed to ease social pressures. The community's surface and ground water was",
+        "steps": 3
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 3
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\n\nThe latest sunset occurs during the summer. This is because the",
+        "steps": 3
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nQuestion: Which best describes the transformation of",
+        "steps": 3
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a feature",
+        "steps": 3
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nQuestion: A student wants to determine",
+        "steps": 3
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nQuestion: A simple machine makes",
+        "steps": 3
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 3
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nQuestion: Which",
+        "steps": 3
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C\nLeopard's opening chant suggests that he is confident. The chant is",
+        "steps": 3
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 3
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 3
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C\nAnswer: C\nAnswer: C\nAnswer: C\nAnswer:",
+        "steps": 3
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nThe Sun emits",
+        "steps": 3
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\nQuestion: Which process in the carbon cycle takes",
+        "steps": 3
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nQuestion: A city's water treatment plant is",
+        "steps": 3
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe correct answer is B. Watering plants and grass in the early",
+        "steps": 3
+      },
+      {
+        "id": "arc_0049",
+        "correct": false,
+        "predicted": "!",
+        "expected": "B",
+        "raw_answer": "!!!!!!!!!!!!!!!!",
+        "steps": 3
+      }
+    ]
+  },
+  "config_D": {
+    "config": "D",
+    "description": "Continuous + learned RL gate",
+    "accuracy": 0.84,
+    "avg_steps": 236.28,
+    "correct": 42,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\nQuestion: Which of the following is a natural cause",
+        "steps": 256
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows current to flow",
+        "steps": 256
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student is trying to determine the relationship between the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 24
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nWhen the velocity of a stream decreases",
+        "steps": 5
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which of the following is a function of the cell membrane?\n",
+        "steps": 256
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier than the others",
+        "steps": 256
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nExplanation: A food nutrition label typically includes information",
+        "steps": 256
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 256
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nQuestion: What is the main purpose of the snake",
+        "steps": 256
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which is the most likely reason that using energy generated from wind",
+        "steps": 256
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 256
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: The harder",
+        "steps": 256
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 256
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 256
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 256
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\nQuestion: What is the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nAnswer: C) 63\nAnswer:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 256
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 256
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nExplanation: A child inherits physical characteristics such as freck",
+        "steps": 256
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 256
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: When powdered tea is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 256
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\nExplanation: In the summer, the sun sets later in the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nThe battery in a flashlight is a chemical",
+        "steps": 256
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a feature",
+        "steps": 256
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nExplanation: When only one variable is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\n\nQuestion: A simple machine makes",
+        "steps": 256
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 256
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nExplanation: A",
+        "steps": 256
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\nQuestion: What is the main idea of the passage?\nA",
+        "steps": 256
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 256
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 256
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 256
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nThe Sun emits",
+        "steps": 4
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\nThe formation of fossil fuels takes the longest time",
+        "steps": 5
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nExplanation: Reverse osmosis is a water",
+        "steps": 256
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question is about why watering plants and grass in the early morning is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\nQuestion: Which",
+        "steps": 256
+      }
+    ]
+  },
+  "config_E": {
+    "config": "E",
+    "description": "Continuous + learned gate + KV memory",
+    "accuracy": 0.82,
+    "avg_steps": 246.24,
+    "correct": 41,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) a flash flood\nB) a lightning strike\nC) a tornado",
+        "steps": 19
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows electricity to flow",
+        "steps": 256
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 256
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nWhen the velocity of a stream decreases",
+        "steps": 5
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: Which of the following is the main role",
+        "steps": 256
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier than the others",
+        "steps": 256
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nQuestion: Which of the following is not a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 256
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nThe color of the snake most likely helps it to",
+        "steps": 256
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which is the most likely reason that using energy generated from wind",
+        "steps": 256
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 256
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: In the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 256
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 256
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 256
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\n\nQuestion: What is the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nAnswer: C) 63\nAnswer:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 256
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 256
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nExplanation: A child inherits physical characteristics such as freck",
+        "steps": 256
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 256
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: A solution is a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 256
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\nThe latest sunset occurs during the summer. The sun's path",
+        "steps": 256
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nThe battery in a flashlight is a chemical",
+        "steps": 256
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: What is the main reason that the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nExplanation: When only one variable is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nExplanation: A simple machine makes",
+        "steps": 256
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 256
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nThe needle is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) confident.\nLeopard's opening chant suggests that he is confident. The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 256
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 256
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 256
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nQuestion: The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\nThe formation of fossil fuels takes the longest time",
+        "steps": 256
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nExplanation: Reverse osmosis is a water",
+        "steps": 256
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question is about why watering plants and grass in the early morning is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) It allows crops to be grown in drier climates.\nQuestion: Which",
+        "steps": 256
+      }
+    ]
+  },
+  "config_F": {
+    "config": "F",
+    "description": "Continuous + learned gate + neural memory",
+    "accuracy": 0.84,
+    "avg_steps": 232.24,
+    "correct": 42,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\nQuestion: Which of the following is a natural cause",
+        "steps": 256
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows electricity to flow",
+        "steps": 256
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 256
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nWhen the velocity of a stream decreases",
+        "steps": 5
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: Which of the following is the main role",
+        "steps": 256
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier than the others",
+        "steps": 256
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nExplanation: A food nutrition label typically includes information",
+        "steps": 256
+      },
+      {
+        "id": "arc_0011",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D\nQuestion: Which of the following is a correct statement about the solar system",
+        "steps": 256
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nQuestion: What is the main purpose of the snake",
+        "steps": 256
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) wind produces less pollution than fossil fuels\nQuestion: Which is the most",
+        "steps": 256
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 256
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: The harder",
+        "steps": 256
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 256
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change involves a chemical reaction that",
+        "steps": 256
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 256
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\nQuestion: What is the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nAnswer: C) 63\nAnswer:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 256
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 256
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\nQuestion: Which of the following is not a function of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 256
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: A solution is a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nExplanation: The activity that wastes a natural resource",
+        "steps": 32
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\nExplanation: In the summer, the sun sets later in the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nThe battery in a flashlight is a chemical",
+        "steps": 256
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a reason",
+        "steps": 256
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nQuestion: A student wants to determine",
+        "steps": 256
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nExplanation: A simple machine makes",
+        "steps": 256
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 256
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nExplanation: A",
+        "steps": 256
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C\nLeopard's opening chant suggests that he is confident. The chant is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 256
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a decom",
+        "steps": 256
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 256
+      },
+      {
+        "id": "arc_0045",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) a range of many wavelengths from long to very short.\nThe Sun emits",
+        "steps": 4
+      },
+      {
+        "id": "arc_0046",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) formation of fossil fuels\nThe process that takes the longest in the carbon",
+        "steps": 5
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nExplanation: Reverse osmosis is a water",
+        "steps": 256
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question is about why watering plants and grass in the early morning is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: A student is looking at a diagram of a plant cell.",
+        "steps": 46
+      }
+    ]
+  },
+  "config_G": {
+    "config": "G",
+    "description": "Continuous + learned gate + MemoryGate + KV",
+    "accuracy": 0.78,
+    "avg_steps": 231.04,
+    "correct": 39,
+    "total": 50,
+    "details": [
+      {
+        "id": "arc_0000",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) a lightning strike\nQuestion: Which of the following is a natural cause",
+        "steps": 256
+      },
+      {
+        "id": "arc_0001",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) switch.\nQuestion: A circuit is a path that allows current to flow",
+        "steps": 256
+      },
+      {
+        "id": "arc_0002",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) when the river flow is high and the tide is low\nExplanation:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0003",
+        "correct": false,
+        "predicted": "D",
+        "expected": "C",
+        "raw_answer": " D) measurement\nQuestion: A student wants to find out if the amount of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0004",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) Cast an image through a pinhole onto a screen.\nExplanation: The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0005",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe formation of sedimentary rocks involves several steps. First, weathering",
+        "steps": 256
+      },
+      {
+        "id": "arc_0006",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) the mass of Earth.\nQuestion: Which of the following is not a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0007",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) deposition of material in the stream\nWhen the velocity of a stream decreases",
+        "steps": 5
+      },
+      {
+        "id": "arc_0008",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) breaking down wastes\nQuestion: What is the role of the nucleus in",
+        "steps": 256
+      },
+      {
+        "id": "arc_0009",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) It ate more food.\nThe puppy that was much heavier than the others",
+        "steps": 256
+      },
+      {
+        "id": "arc_0010",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) a suggested meal plan.\nExplanation: A food nutrition label typically includes information",
+        "steps": 256
+      },
+      {
+        "id": "arc_0011",
+        "correct": false,
+        "predicted": "C",
+        "expected": "D",
+        "raw_answer": " C\nAnswer: C\nAnswer: C\nAnswer: C\nAnswer:",
+        "steps": 3
+      },
+      {
+        "id": "arc_0012",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hide when threatened.\nQuestion: Which of the following is a benefit of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0013",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which is the most likely reason that using energy generated from wind",
+        "steps": 256
+      },
+      {
+        "id": "arc_0014",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) dough bakes in an oven.\nExplanation: A chemical change involves a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0015",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) 15\u00b0C\n\nThe median is the middle value when the numbers",
+        "steps": 256
+      },
+      {
+        "id": "arc_0016",
+        "correct": false,
+        "predicted": "B",
+        "expected": "A",
+        "raw_answer": " B) W is the hardest of the four substances tested.\nExplanation: The harder",
+        "steps": 256
+      },
+      {
+        "id": "arc_0017",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) scars on its leg\nExplanation: Scars on a lion's leg",
+        "steps": 256
+      },
+      {
+        "id": "arc_0018",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) frying an egg\nExplanation: A chemical change is a process that leads",
+        "steps": 256
+      },
+      {
+        "id": "arc_0019",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe primary cause of rainstorms is the heating of the Earth by the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0020",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) air moving toward the center of a storm and rising into the atmosphere\n",
+        "steps": 256
+      },
+      {
+        "id": "arc_0021",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) NaCl + H_{2}O\nQuestion: What is the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0022",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) 63\nAnswer: C) 63\nAnswer:",
+        "steps": 256
+      },
+      {
+        "id": "arc_0023",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) nuclear energy\nQuestion: Which alternative energy resource is used most like coal",
+        "steps": 256
+      },
+      {
+        "id": "arc_0024",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nQuestion: Which statement is an opinion about the heart?\nA) The",
+        "steps": 256
+      },
+      {
+        "id": "arc_0025",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) to validate results\nExplanation: Repeating trials in an experiment is crucial",
+        "steps": 256
+      },
+      {
+        "id": "arc_0026",
+        "correct": false,
+        "predicted": "A",
+        "expected": "B",
+        "raw_answer": " A) amount of tannin in the bark\nQuestion: Which of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0027",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) growth\nQuestion: Which stage occurs in both the life cycle of a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0028",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) hair style\n\nQuestion: Which of the following is not a characteristic that",
+        "steps": 256
+      },
+      {
+        "id": "arc_0029",
+        "correct": false,
+        "predicted": "A",
+        "expected": "C",
+        "raw_answer": " A) absorb\nThe tinted lenses of sunglasses absorb the UV rays of the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0030",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nThe glassware used to heat liquids can be safely reused after an investigation",
+        "steps": 256
+      },
+      {
+        "id": "arc_0031",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) The tea spreads evenly through the water.\nExplanation: When powdered tea is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0032",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A\nOkay, let's try to figure out this question. The question is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0033",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) throwing away aluminum cans\nQuestion: Which activity is a way to conserve",
+        "steps": 256
+      },
+      {
+        "id": "arc_0034",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) summer\n\nThe latest sunset occurs during the summer. This is because the",
+        "steps": 256
+      },
+      {
+        "id": "arc_0035",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) chemical energy into radiant energy\nQuestion: Which best describes the transformation of",
+        "steps": 256
+      },
+      {
+        "id": "arc_0036",
+        "correct": true,
+        "predicted": "D",
+        "expected": "D",
+        "raw_answer": " D) piles of rocky debris\nQuestion: Which of the following is a feature",
+        "steps": 256
+      },
+      {
+        "id": "arc_0037",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B) improves the reliability of the results.\nExplanation: When only one variable is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0038",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) takes less force to move something heavy\nExplanation: A simple machine makes",
+        "steps": 256
+      },
+      {
+        "id": "arc_0039",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) sodium, chromium, copper\nAnswer: C) sodium, chromium,",
+        "steps": 256
+      },
+      {
+        "id": "arc_0040",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) The needle is lining up with Earth's magnetic poles.\nExplanation: A",
+        "steps": 256
+      },
+      {
+        "id": "arc_0041",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C. The chant \"Leopard's opening chant\" is a metaphor for a",
+        "steps": 256
+      },
+      {
+        "id": "arc_0042",
+        "correct": true,
+        "predicted": "A",
+        "expected": "A",
+        "raw_answer": " A) hot rock\nQuestion: Which of these is most necessary for the production",
+        "steps": 256
+      },
+      {
+        "id": "arc_0043",
+        "correct": false,
+        "predicted": "B",
+        "expected": "C",
+        "raw_answer": " B) fungi and scavengers\nQuestion: Which of the following is a correct",
+        "steps": 256
+      },
+      {
+        "id": "arc_0044",
+        "correct": true,
+        "predicted": "C",
+        "expected": "C",
+        "raw_answer": " C) hunt for food.\nQuestion: A chameleon can change colors to match",
+        "steps": 256
+      },
+      {
+        "id": "arc_0045",
+        "correct": false,
+        "predicted": "B",
+        "expected": "D",
+        "raw_answer": " B) a narrow band of wavelengths that is entirely visible light.\nAnswer: B",
+        "steps": 4
+      },
+      {
+        "id": "arc_0046",
+        "correct": false,
+        "predicted": "F",
+        "expected": "D",
+        "raw_answer": " formation of fossil fuels\nformation of fossil fuels\nformation of fossil fuels\nformation",
+        "steps": 5
+      },
+      {
+        "id": "arc_0047",
+        "correct": false,
+        "predicted": "D",
+        "expected": "B",
+        "raw_answer": " D) reverse osmosis\nExplanation: Reverse osmosis is a water",
+        "steps": 256
+      },
+      {
+        "id": "arc_0048",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nThe question is about why watering plants and grass in the early morning is",
+        "steps": 256
+      },
+      {
+        "id": "arc_0049",
+        "correct": true,
+        "predicted": "B",
+        "expected": "B",
+        "raw_answer": " B\nA) It allows crops to be unaffected by disease.\nB) It",
+        "steps": 15
+      }
+    ]
+  }
+}

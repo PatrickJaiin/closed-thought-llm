@@ -1,0 +1,48 @@
+{
+  "0.2": {
+    "eval_prompts": {
+      "accuracy": 0.85,
+      "avg_steps": 136.6,
+      "correct": 17,
+      "total": 20
+    },
+    "gsm8k_10": {
+      "accuracy": 0.4,
+      "avg_steps": 256.0,
+      "correct": 4,
+      "total": 10
+    },
+    "elapsed_s": 789
+  },
+  "0.3": {
+    "eval_prompts": {
+      "accuracy": 0.85,
+      "avg_steps": 136.6,
+      "correct": 17,
+      "total": 20
+    },
+    "gsm8k_10": {
+      "accuracy": 0.4,
+      "avg_steps": 256.0,
+      "correct": 4,
+      "total": 10
+    },
+    "elapsed_s": 1085
+  },
+  "metadata": {
+    "experiment": "exp5b_threshold_sweep",
+    "thresholds_completed": [
+      0.2,
+      0.3
+    ],
+    "thresholds_planned": [
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "best_threshold": 0.2,
+    "note": "All thresholds give identical results (gate bimodal). GSM8K gate never fires at any threshold.",
+    "timestamp": "2026-02-23T01:29:26.265029"
+  }
+}

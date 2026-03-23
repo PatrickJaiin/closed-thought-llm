@@ -1,0 +1,551 @@
+{
+  "none": {
+    "accuracy": 0.8571428571428571,
+    "correct": 12,
+    "total": 14,
+    "details": [
+      {
+        "scenario": "math_multi",
+        "query_idx": 0,
+        "query": "Question: What is the square root of 144?\nAnswer:",
+        "expected": "12",
+        "predicted": " The square root of 144 is 12. Because 12 multiplied by 12 equals 144. So the an",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 1,
+        "query": "Question: What is 144 divided by 12?\nAnswer:",
+        "expected": "12",
+        "predicted": " 144 divided by 12 is 12. So the answer is 12. But wait, let me check again. 12 ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 2,
+        "query": "Question: What is 144 + 56?\nAnswer:",
+        "expected": "200",
+        "predicted": " 200\n\nQuestion: What is 144 + 56?\nAnswer: 200\n\nQuestion: What is 144 + 56?\nAnswe",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 3,
+        "query": "Question: Is 144 a perfect square? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes\n\nQuestion: Is 144 a perfect square? Answer yes or no.\nAnswer: Yes\n\nQuestion",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 0,
+        "query": "Question: What is the capital of France?\nAnswer:",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What i",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 1,
+        "query": "Question: What continent is France on?\nAnswer:",
+        "expected": "Europe",
+        "predicted": " France is located on the continent of Europe.\nQuestion: What is the capital of ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 2,
+        "query": "Question: Is Paris in Europe? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes.\n\nQuestion: Is the Eiffel Tower in Paris?\nAnswer: Yes.\n\nQuestion: Is the Ei",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 0,
+        "query": "Question: Who is the tallest?\nAnswer:",
+        "expected": "A",
+        "predicted": " The tallest is the one who is 6 feet 5 inches tall.\nQuestion: What is the heigh",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 1,
+        "query": "Question: Who is the shortest?\nAnswer:",
+        "expected": "D",
+        "predicted": " The shortest is the one who is 4 feet tall.\nQuestion: Who is the tallest?\nAnswe",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 2,
+        "query": "Question: Is B taller than D? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " No.\n\nQuestion: Is A shorter than B? Answer yes or no.\nAnswer: No.\n\nQuestion: Is",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 3,
+        "query": "Question: Is C taller than A? Answer yes or no.\nAnswer:",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: Is B shorter than C? Answer yes or no.\nAnswer: Yes.\n\nQuestion: I",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 0,
+        "query": "Question: At what temperature does water boil in Celsius?\nAn",
+        "expected": "100",
+        "predicted": " At what temperature does water boil in Celsius?\n.\n\n.bunifuFlatButton2\n\n\n\nButton",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 1,
+        "query": "Question: At what temperature does water freeze in Celsius?\n",
+        "expected": "0",
+        "predicted": " At what temperature does water freeze in Celsius? At what temperature does wate",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 2,
+        "query": "Question: What is the difference between the boiling and fre",
+        "expected": "100",
+        "predicted": " What is the difference between the boiling and freezing points of water in Cels",
+        "correct": true,
+        "steps": 32
+      }
+    ]
+  },
+  "kv": {
+    "accuracy": 0.8571428571428571,
+    "correct": 12,
+    "total": 14,
+    "details": [
+      {
+        "scenario": "math_multi",
+        "query_idx": 0,
+        "query": "Question: What is the square root of 144?\nAnswer:",
+        "expected": "12",
+        "predicted": " What is the square root of 144?\nAnswer\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\n",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 1,
+        "query": "Question: What is 144 divided by 12?\nAnswer:",
+        "expected": "12",
+        "predicted": " What is 144 divided by 12?\nAnswer: What is 144 divided by 12?\nAnswer: What is 1",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 2,
+        "query": "Question: What is 144 + 56?\nAnswer:",
+        "expected": "200",
+        "predicted": " What is 144 + 56?\nQuestion: What is 144 + 56?\nAnswer: What is 144 + 56?\nQuestio",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 3,
+        "query": "Question: Is 144 a perfect square? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Is 144 a perfect square? Answer yes or no.\nAnswer: Is 144 a perfect square? Ans",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 0,
+        "query": "Question: What is the capital of France?\nAnswer:",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What i",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 1,
+        "query": "Question: What continent is France on?\nAnswer:",
+        "expected": "Europe",
+        "predicted": " France is located on the continent of Europe.\nQuestion: What is the capital of ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 2,
+        "query": "Question: Is Paris in Europe? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes.\n\nQuestion: Is the Eiffel Tower in Paris?\nAnswer: Yes.\n\nQuestion: Is the Ei",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 0,
+        "query": "Question: Who is the tallest?\nAnswer:",
+        "expected": "A",
+        "predicted": " The tallest is the one who is 6 feet 7 inches tall.\nQuestion: What is the heigh",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 1,
+        "query": "Question: Who is the shortest?\nAnswer:",
+        "expected": "D",
+        "predicted": " The shortest is the one who is not the tallest.\nQuestion: Who is the tallest?\nA",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 2,
+        "query": "Question: Is B taller than D? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " No.\n\nQuestion: Is B taller than C? Answer yes or no.\nAnswer: No.\n\nQuestion: Is ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 3,
+        "query": "Question: Is C taller than A? Answer yes or no.\nAnswer:",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: Is B shorter than C? Answer yes or no.\nAnswer: Yes.\n\nQuestion: I",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 0,
+        "query": "Question: At what temperature does water boil in Celsius?\nAn",
+        "expected": "100",
+        "predicted": " Water boils at 100 degrees Celsius.\nQuestion: What is the freezing point of wat",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 1,
+        "query": "Question: At what temperature does water freeze in Celsius?\n",
+        "expected": "0",
+        "predicted": " Water freezes at 0\u00b0C.\nQuestion: What is the freezing point of water in Fahrenhe",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 2,
+        "query": "Question: What is the difference between the boiling and fre",
+        "expected": "100",
+        "predicted": " The boiling point of water is 100\u00b0C and the freezing point is 0\u00b0C, so the diffe",
+        "correct": true,
+        "steps": 32
+      }
+    ]
+  },
+  "surprise": {
+    "accuracy": 0.8571428571428571,
+    "correct": 12,
+    "total": 14,
+    "details": [
+      {
+        "scenario": "math_multi",
+        "query_idx": 0,
+        "query": "Question: What is the square root of 144?\nAnswer:",
+        "expected": "12",
+        "predicted": " What is the square root of 144?\nAnswer\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\nThe\n",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 1,
+        "query": "Question: What is 144 divided by 12?\nAnswer:",
+        "expected": "12",
+        "predicted": " What is 144 divided by 12?\nAnswer: What is 144 divided by 12?\nAnswer: What is 1",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 2,
+        "query": "Question: What is 144 + 56?\nAnswer:",
+        "expected": "200",
+        "predicted": " What is 144 + 56?\nQuestion: What is 144 + 56?\nAnswer: What is 144 + 56?\nQuestio",
+        "correct": false,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 3,
+        "query": "Question: Is 144 a perfect square? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Is 144 a perfect square? Answer yes or no.\nAnswer: Is 144 a perfect square? Ans",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 0,
+        "query": "Question: What is the capital of France?\nAnswer:",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What i",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 1,
+        "query": "Question: What continent is France on?\nAnswer:",
+        "expected": "Europe",
+        "predicted": " France is located on the continent of Europe.\nQuestion: What is the capital of ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 2,
+        "query": "Question: Is Paris in Europe? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes.\n\nQuestion: Is the Eiffel Tower in Paris?\nAnswer: Yes.\n\nQuestion: Is the Ei",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 0,
+        "query": "Question: Who is the tallest?\nAnswer:",
+        "expected": "A",
+        "predicted": " Who is the tallest?\nAnswer: Who is the tallest?\nAnswer: Who is the tallest?\nAns",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 1,
+        "query": "Question: Who is the shortest?\nAnswer:",
+        "expected": "D",
+        "predicted": " The shortest is the one who is not the tallest.\nQuestion: Who is the tallest?\nA",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 2,
+        "query": "Question: Is B taller than D? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " No.\n\nQuestion: Is D shorter than B? Answer yes or no.\nAnswer: Yes.\n\nWait, that'",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 3,
+        "query": "Question: Is C taller than A? Answer yes or no.\nAnswer:",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: Is B shorter than C? Answer yes or no.\nAnswer: Yes.\n\nQuestion: I",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 0,
+        "query": "Question: At what temperature does water boil in Celsius?\nAn",
+        "expected": "100",
+        "predicted": " Water boils at 100\u00b0C.\n\nQuestion: What is the freezing point of water in Celsius",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 1,
+        "query": "Question: At what temperature does water freeze in Celsius?\n",
+        "expected": "0",
+        "predicted": " Water freezes at 0\u00b0C.\nQuestion: What is the freezing point of water in Fahrenhe",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 2,
+        "query": "Question: What is the difference between the boiling and fre",
+        "expected": "100",
+        "predicted": " The boiling point of water is 100\u00b0C and the freezing point is 0\u00b0C, so the diffe",
+        "correct": true,
+        "steps": 32
+      }
+    ]
+  },
+  "neural": {
+    "accuracy": 1.0,
+    "correct": 14,
+    "total": 14,
+    "details": [
+      {
+        "scenario": "math_multi",
+        "query_idx": 0,
+        "query": "Question: What is the square root of 144?\nAnswer:",
+        "expected": "12",
+        "predicted": " The square root of 144 is 12. This is because 12 multiplied by 12 equals 144. T",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 1,
+        "query": "Question: What is 144 divided by 12?\nAnswer:",
+        "expected": "12",
+        "predicted": " 12\nQuestion: What is 144 divided by 12?\nAnswer: 12\nQuestion: What is 144 divide",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 2,
+        "query": "Question: What is 144 + 56?\nAnswer:",
+        "expected": "200",
+        "predicted": " 200. So the answer is 200. But wait, let me check again. 144 plus 50 is 194, th",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "math_multi",
+        "query_idx": 3,
+        "query": "Question: Is 144 a perfect square? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes.\n\nQuestion: Is 145 a perfect square? Answer yes or no.\nAnswer: No.\n\nQuestio",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 0,
+        "query": "Question: What is the capital of France?\nAnswer:",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What i",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 1,
+        "query": "Question: What continent is France on?\nAnswer:",
+        "expected": "Europe",
+        "predicted": " Europe\n\nQuestion: What is the capital of France?\nAnswer: Paris\n\nQuestion: What ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "geo_multi",
+        "query_idx": 2,
+        "query": "Question: Is Paris in Europe? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " Yes.\n\nQuestion: Is the Eiffel Tower in Paris?\nAnswer: Yes.\n\nQuestion: Is the Ei",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 0,
+        "query": "Question: Who is the tallest?\nAnswer:",
+        "expected": "A",
+        "predicted": " The tallest is the one who is 6 feet 5 inches tall.\nQuestion: Who is the shorte",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 1,
+        "query": "Question: Who is the shortest?\nAnswer:",
+        "expected": "D",
+        "predicted": " The shortest is the one who is not the tallest.\nOkay, let's see. The question i",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 2,
+        "query": "Question: Is B taller than D? Answer yes or no.\nAnswer:",
+        "expected": "yes",
+        "predicted": " No.\nQ: Is B taller than C?\nOptions:\nA. No\nB. Yes\nC. No\nD. Yes\nAnswer: A\n\nOkay, ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "logic_multi",
+        "query_idx": 3,
+        "query": "Question: Is C taller than A? Answer yes or no.\nAnswer:",
+        "expected": "no",
+        "predicted": " No. Explanation: A, B, and C are three people. A is taller than B. B is taller ",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 0,
+        "query": "Question: At what temperature does water boil in Celsius?\nAn",
+        "expected": "100",
+        "predicted": " Water boils at 100\u00b0C under standard atmospheric pressure.\nQuestion: What is the",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 1,
+        "query": "Question: At what temperature does water freeze in Celsius?\n",
+        "expected": "0",
+        "predicted": " Water freezes at 0 degrees Celsius.\nQuestion: What is the boiling point of wate",
+        "correct": true,
+        "steps": 32
+      },
+      {
+        "scenario": "science_multi",
+        "query_idx": 2,
+        "query": "Question: What is the difference between the boiling and fre",
+        "expected": "100",
+        "predicted": " The boiling point of water is 100\u00b0C and the freezing point is 0\u00b0C, so the diffe",
+        "correct": true,
+        "steps": 32
+      }
+    ]
+  },
+  "single_none": {
+    "accuracy": 0.9,
+    "correct": 18,
+    "total": 20
+  },
+  "single_kv": {
+    "accuracy": 0.9,
+    "correct": 18,
+    "total": 20
+  },
+  "metadata": {
+    "experiment": "exp4a_memory_tiers",
+    "timestamp": "2026-02-22T07:23:30.179921",
+    "n_scenarios": 4,
+    "memory_slots": 128,
+    "memory_alpha": 0.1
+  }
+}

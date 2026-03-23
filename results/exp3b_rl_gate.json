@@ -1,0 +1,639 @@
+{
+  "fixed_n32": {
+    "accuracy": 0.9,
+    "avg_steps": 32.0,
+    "correct": 18,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "correct": false,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "correct": true,
+        "steps": 32,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "correct": false,
+        "steps": 32,
+        "halted": false
+      }
+    ]
+  },
+  "heuristic": {
+    "accuracy": 0.85,
+    "avg_steps": 129.25,
+    "correct": 17,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "correct": true,
+        "steps": 1,
+        "halted": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "correct": true,
+        "steps": 34,
+        "halted": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "correct": false,
+        "steps": 14,
+        "halted": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "correct": true,
+        "steps": 13,
+        "halted": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "correct": false,
+        "steps": 11,
+        "halted": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "correct": true,
+        "steps": 17,
+        "halted": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "correct": true,
+        "steps": 21,
+        "halted": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "correct": true,
+        "steps": 18,
+        "halted": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "correct": true,
+        "steps": 2,
+        "halted": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "correct": true,
+        "steps": 110,
+        "halted": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "correct": true,
+        "steps": 40,
+        "halted": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "correct": false,
+        "steps": 256,
+        "halted": false
+      }
+    ]
+  },
+  "supervised": {
+    "accuracy": 0.85,
+    "avg_steps": 136.55,
+    "correct": 17,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "correct": true,
+        "steps": 1,
+        "halted": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "correct": true,
+        "steps": 34,
+        "halted": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "correct": false,
+        "steps": 14,
+        "halted": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "correct": true,
+        "steps": 13,
+        "halted": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "correct": false,
+        "steps": 11,
+        "halted": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "correct": true,
+        "steps": 17,
+        "halted": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "correct": true,
+        "steps": 21,
+        "halted": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "correct": true,
+        "steps": 18,
+        "halted": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "correct": true,
+        "steps": 2,
+        "halted": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "correct": true,
+        "steps": 40,
+        "halted": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "correct": false,
+        "steps": 256,
+        "halted": false
+      }
+    ]
+  },
+  "rl_refined": {
+    "accuracy": 0.85,
+    "avg_steps": 136.55,
+    "correct": 17,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "correct": true,
+        "steps": 1,
+        "halted": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "correct": true,
+        "steps": 34,
+        "halted": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "correct": false,
+        "steps": 14,
+        "halted": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "correct": true,
+        "steps": 13,
+        "halted": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "correct": false,
+        "steps": 11,
+        "halted": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "correct": true,
+        "steps": 17,
+        "halted": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "correct": true,
+        "steps": 21,
+        "halted": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "correct": true,
+        "steps": 18,
+        "halted": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "correct": true,
+        "steps": 2,
+        "halted": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "correct": true,
+        "steps": 40,
+        "halted": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "correct": true,
+        "steps": 256,
+        "halted": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "correct": false,
+        "steps": 256,
+        "halted": false
+      }
+    ]
+  },
+  "rl_history": {
+    "reward": [
+      0.3494999999999998,
+      0.38799999999999985,
+      0.34849999999999987,
+      0.23649999999999985,
+      0.3394999999999998,
+      0.31399999999999995,
+      0.47899999999999976,
+      0.34699999999999986,
+      0.27249999999999985,
+      0.37699999999999984
+    ],
+    "accuracy": [
+      0.85,
+      0.85,
+      0.85,
+      0.8,
+      0.85,
+      0.75,
+      0.9,
+      0.85,
+      0.8,
+      0.85
+    ],
+    "avg_steps": [
+      34.4,
+      30.5,
+      34.5,
+      35.65,
+      35.45,
+      17.65,
+      31.4,
+      34.6,
+      32.05,
+      31.6
+    ]
+  },
+  "metadata": {
+    "experiment": "exp3b_rl_gate",
+    "timestamp": "2026-02-22T06:49:55.377733",
+    "gate_params": 1049089,
+    "rl_lr": 0.0001,
+    "step_penalty": -0.01
+  }
+}

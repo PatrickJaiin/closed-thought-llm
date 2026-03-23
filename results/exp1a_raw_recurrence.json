@@ -1,0 +1,1184 @@
+{
+  "0": {
+    "accuracy": 0.45,
+    "correct": 9,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": " 23 * 47 = 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 4",
+        "correct": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: ",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\n",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let's see. The problem says I have 3 apples and then buy 4 bags, each with 6 apples. So, I need to find the total number of apples. \n\nFirst, I",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: All cats are animals. Some animals are pets. Can we conclude that all cats are pets? Answer yes or no.\nAnswer: No.\n\nQuestion: All cats are animals. Some animals are pets. Can we conclude that all cats are pets? Answer yes or no.\nAnswer: No.\n\nQuestion:",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or 'not necessarily'.\nAnswer: not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is taller than B. C is taller than B. D is shorter than C. Who is the shortest?\nAnswer: B or D\nQuestion: A is taller than B.",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer yes or no.\nAnswer: No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer yes or no.\nAnswer:",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare.\nQuestion: What is the name of the main character in the story of \"The Three Musketeers\"?\nAnswer: D'Artagnan.\nQuestion: Which famous author wrote \"The Catcher in the Rye\"?\nAnswer: J.D. Salinger.\nQuestion: Who is the author of",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "1": {
+    "accuracy": 0.05,
+    "correct": 1,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " yes\n\nOkay, let's try to figure this out. The question is about whether we can conclude that some roses fade quickly, given two premises: \"All roses are flowers\" and \"Some flowers fade quickly.\" The answer options are yes or no.\n\nFirst, I need to break down the premises. The first one",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question: Question:",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "2": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "4": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "8": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "16": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "32": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "metadata": {
+    "experiment": "exp1a_raw_recurrence",
+    "timestamp": "2026-02-21T16:19:49.454219",
+    "recurrence_steps": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ]
+  }
+}

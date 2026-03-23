@@ -1,0 +1,1185 @@
+{
+  "0": {
+    "accuracy": 0.45,
+    "correct": 9,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": " 23 * 47 = 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 4",
+        "correct": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: ",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\n",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let's see. The problem says I have 3 apples and then buy 4 bags, each with 6 apples. So, I need to find the total number of apples. \n\nFirst, I",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: All cats are animals. Some animals are pets. Can we conclude that all cats are pets? Answer yes or no.\nAnswer: No.\n\nQuestion: All cats are animals. Some animals are pets. Can we conclude that all cats are pets? Answer yes or no.\nAnswer: No.\n\nQuestion:",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or 'not necessarily'.\nAnswer: not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\nQuestion: A is taller than B. B is shorter than C. Who is the shortest?\nAnswer: B\nQuestion: A is taller than B. C is taller than B. D is shorter than C. Who is the shortest?\nAnswer: B or D\nQuestion: A is taller than B.",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer yes or no.\nAnswer: No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer yes or no.\nAnswer:",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare.\nQuestion: What is the name of the main character in the story of \"The Three Musketeers\"?\nAnswer: D'Artagnan.\nQuestion: Which famous author wrote \"The Catcher in the Rye\"?\nAnswer: J.D. Salinger.\nQuestion: Who is the author of",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      }
+    ]
+  },
+  "1": {
+    "accuracy": 0.8,
+    "correct": 16,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": " 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 1081\n\nQuestion: What is 23 * 47?\nAnswer: 108",
+        "correct": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445.00000000000006",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nQuestion: What is 1000 - 387?\n",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": " 12\nQuestion: What is 84 divided by 7?\nAnswer: 12\nQuestion: What is 84 divided by 7?\nAnswer: 12\nQuestion: What is 84 divided by 7?\nAnswer: 12\nQuestion: What is 8",
+        "correct": true
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by 15?\nAnswer: 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion",
+        "correct": true
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 100 positive integers?\nAnswer: The sum of the first 100 positive integers is 5050.\n\nQuestion: What is the sum of the first 100",
+        "correct": true
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length and width. So, 12 multiplied by 5 equals 60. Therefore, the area is \\boxed{60}.\n\nQuestion: A rectangle has length 12 and width 5. What is its area?\nAnswer: To find the",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\nSo the answer is 27.\n\nQuestion: If you have 3 apples and buy 4 bags of 6 apples each, how many apples do you have in total?\nAnswer: 3 + 4",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: All dogs are mammals. All mammals are animals. Can we conclude that all dogs are animals? Answer yes or no.\nAnswer: Yes.\n\nQuestion: All A are B. All B are C. Can we conclude that all A are C? Answer yes or no.\nAnswer: Yes.\n\nQuestion:",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The ground is wet. Did it necessarily rain? Answer: Not necessarily. The",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": " The next number in the sequence is 162. Each number is multiplied by 3 to get the next number. So, 2*3=6, 6*3=18, 18*3=54, 54*3=162.\nQuestion: What",
+        "correct": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all A are B and some B are C, can we necessarily conclude that some A are C? Answer yes or no.\nAnswer: No.\n\nQuestion: If all A are B and all B are C, can we necessarily conclude that all A are C? Answer yes or no.\nAnswer:",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spain?\nAnswer: Madrid.\n\nQuestion: What is the capital of Germany?\nAnswer: Berlin.\n\nQuestion: What is the capital of the United Kingdom?\nAnswer: London.\n\nQuestion: What is the capital of Portugal",
+        "correct": true
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a very hot surface temperature due to its proximity to the Sun. Mercury is also the fastest planet in our solar system, orbiting the Sun every 88 Earth days. It has no atmosphere to retain heat, so",
+        "correct": true
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the play that is about a young man and a young woman from feuding families?\nAnswer: The name of the play is Romeo and Juliet.\nQuestion: What is the name of the young man in the play?\nAnswer: The name of the young",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H\u2082O. It consists of two hydrogen atoms and one oxygen atom, represented by the formula H\u2082O. This molecule is essential for life and is found in abundance in Earth's oceans, lakes, and atmosphere. The structure of water allows it to have unique properties such as high specific",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.\nQuestion: What is the largest continent?\nAnswer: The largest continent is Asia, covering an area of approximately 44.5 million square kilometers.\nQuestion: What is the smallest continent?\nAnswer:",
+        "correct": false
+      }
+    ]
+  },
+  "2": {
+    "accuracy": 0.75,
+    "correct": 15,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\n\nOkay, let's see. I need to calculate 1000 minus 387. Hmm, how do I approach this? Well, subtraction can sometimes be tricky when",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": " 12\n\nQuestion: What is 84 / 7?\nAnswer: 12\n\nQuestion: What is 84 / 7?\nAnswer: 12\n\nQuestion: What is 84 / 7?\nAnswer: 12\n\nQuestion: What is 84 / ",
+        "correct": true
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": " 225\n\nQuestion: What is 15 squared?\nAnswer: 225\n\nQuestion: What is 15 squared?\nAnswer: 225\n\nQuestion: What is 15 squared?\nAnswer: 225\n\nQuestion: What is 15 squared?\nAnswer:",
+        "correct": true
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer is $36.\n\nQuestion: A pair of shoes is originally priced at $120 and",
+        "correct": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length and width. So, 12 multiplied by 5 equals 60. Therefore, the area is \\boxed{60}.\n\nQuestion: A rectangle has length 12 and width 5. What is its area?\nAnswer: The area of",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let's see. The problem says I have 3 apples and then buy 4 bags, each with 6 apples. So, I need to find the total number of apples. \n\nFirst, I",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " No.\n\nThe conclusion that all cats are pets cannot be definitively drawn from the given premises. While it is true that all cats are animals and some animals are pets, this does not necessarily mean that all cats are pets. The statement \"some animals are pets\" implies that only a subset of animals are considered pets,",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or 'not necessarily'.\nAnswer: not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": " The sequence is 2, 6, 18, 54, and the next number is 162. Each term is multiplied by 3 to get the next term. So, 2*3=6, 6*3=18, 18*3=5",
+        "correct": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\n\nQuestion: The first day of the month is a Sunday. What day of the week is the 10th day of the month?\nAnswer: Wednesday\n\nQuestion: If you have 10 apples and give away 3, then give away 2 more, how many apples do you have left?\n",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer yes or no.\nAnswer: No.\n\nOkay, let's tackle this logic problem. The question is: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spain?\nAnswer: Madrid.\n\nQuestion: What is the capital of Germany?\nAnswer: Berlin.\n\nQuestion: What is the capital of the United Kingdom?\nAnswer: London.\n\nQuestion: What is the capital of Portugal",
+        "correct": true
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a very hot surface temperature due to its proximity to the Sun. Mercury is also the fastest planet in our solar system, orbiting the Sun in just 88 Earth days. It has no atmosphere to retain heat,",
+        "correct": true
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare wrote Romeo and Juliet.\nQuestion: What is the name of the play that is about a young man and a young woman from feuding families?\nAnswer: The name of the play is Romeo and Juliet.\nQuestion: What is the name of the young man in the play?\nAnswer: The name of the young",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H\u2082O. Water is composed of two hydrogen atoms and one oxygen atom, which is represented by the formula H\u2082O. This formula indicates that each molecule of water contains two",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.\nQuestion: What is the capital of France?\nAnswer: The capital of France is Paris.\nQuestion: What is the largest planet in our solar system?\nAnswer: The largest planet in our solar system is",
+        "correct": false
+      }
+    ]
+  },
+  "4": {
+    "accuracy": 0.8,
+    "correct": 16,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: 445\n\nQuestion: What is 156 + 289?\nAnswer: ",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nOkay, let's see. The problem is 1000 minus 387. Hmm, I need to subtract 387 from 1000.",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": " 12\n\nOkay, so I need to figure out what 84 divided by 7 is. Let me think. Hmm, division can sometimes be tricky, but I remember that division is the opposite of multiplication. So if I can figure out what number multiplied by 7 gives me 84, that",
+        "correct": true
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by 15?\nAnswer: 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion",
+        "correct": true
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer is $36.\n\nQuestion: A pair of shoes is originally priced at $120 and",
+        "correct": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 100 positive integers?\nAnswer: The sum of the first 100 positive integers is 5050.\n\nQuestion: What is the sum of the first 100",
+        "correct": true
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length and width. So, 12 multiplied by 5 equals 60. The area is 60.\n\nQuestion: A rectangle has length 12 and width 5. What is its area?\nAnswer: The area of a rectangle is found by",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 3 to the power of 4 is 81. This is calculated by multiplying 3 by itself four times: 3 \u00d7 3 \u00d7 3 \u00d7 3 = 81. \n\nQuestion: What is 5 to the power of 3?\nAnswer: 5 to the power of ",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 apples and then I buy 4 bags, each with 6 apples. The question is asking how many apples I have in",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: All birds have feathers. Some birds are parrots. Can we conclude that all parrots have feathers? Answer yes or no.\nAnswer: Yes.\n\nQuestion: All students in the class are wearing glasses. Some students are boys. Can we conclude that all boys are wearing glasses? Answer yes or no",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " 'yes' or 'not necessarily'.\n\nThe answer is 'yes' or 'not necessarily'. So, the answer is 'yes' or 'not necessarily'. So, the answer is 'yes' or 'not necessarily'. So, the answer is 'yes' or 'not necessarily'. So, the answer is '",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": " The next number in the sequence is 162.\n\nQuestion: What is the next number in the sequence: 2, 6, 18, 54, ?\nOptions:\nA) 162\nB) 160\nC) 158\nD) ",
+        "correct": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " A is taller than B. B is taller than C. Who is the\n That is, the answer is A is taller than B. B is taller than C. Who is the shortest? A is taller than B. B is taller than C. Who is the shortest? A is taller than B. B is",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No. The statement \"all roses are flowers\" establishes that roses are a subset of flowers. The statement \"some flowers fade quickly\" means that at least one flower (but not necessarily all) fades quickly. However, it's possible that the flowers which fade quickly are not roses. For example, maybe only non-",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spain?\nAnswer: Madrid.\n\nQuestion: What is the capital of Germany?\nAnswer: Berlin.\n\nQuestion: What is the capital of the United Kingdom?\nAnswer: London.\n\nQuestion: What is the capital of Portugal",
+        "correct": true
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " What planet is closest to the Sun?\nAnswer: What planet is closest to the Sun?\nAnswer: What planet is closest to the Sun?\nAnswer: What planet is closest to the Sun?\nAnswer: What planet is closest to the Sun?\nAnswer: What planet is closest to the Sun?\nAnswer: What planet is closest",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare.\nQuestion: What is the name of the main character in the story of the Three Little Pigs?\nAnswer: The main characters are the three pigs, but the story is often focused on the wolf.\nQuestion: What is the name of the main character in the story of the Three Little Pigs?\nAnswer",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H\u2082O. Water is composed of two hydrogen atoms and one oxygen atom, which is represented by the formula H\u2082O. This formula indicates that each molecule of water contains two",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.\nQuestion: What is the largest continent?\nAnswer: The largest continent is Asia, covering an area of approximately 44.5 million square kilometers.\nQuestion: What is the smallest continent?\nAnswer:",
+        "correct": false
+      }
+    ]
+  },
+  "8": {
+    "accuracy": 0.65,
+    "correct": 13,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": " 1081\nStep-by-step explanation:\nTo multiply 23 by 47, we can use the standard multiplication algorithm.\n\nFirst, we multiply 23 by 7, which gives us 161.\n\nThen, we multiply 23 by 40, which gives us ",
+        "correct": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\n\nWait, let me check that again. 156 plus 200 is 356, then plus 89 is 445. Yes, that's correct. So the answer is 445. But wait, maybe I should verify with another method",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 387 -  387\nAnswer: 387 - 387\nAnswer: 387 - 387\nAnswer: 387 - 387\nAnswer: 387 - 387\nAnswer: 38",
+        "correct": false
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": " 12\n\nQuestion: What is 12 * 12?\nAnswer: 144\n\nQuestion: What is 144 / 12?\nAnswer: 12\n\nQuestion: What is 12 + 12?\nAnswer: 24\n\nQuestion: What is",
+        "correct": true
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": " The sale price in dollars is $45. The sale price in dollars is $45. The sale price in dollars is $45. The sale price in dollars is $45. The sale price in dollars is $45. The sale price in dollars is $45. The sale price in",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the sum of an arithmetic series: S = n/2 * (a1 + an), where n is the number of terms, a1 is the first term, and an is the last term.",
+        "correct": true
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by 5 equals 60. The area is 60.\n\nOkay, let me try to figure out the area of this rectangle. The problem says the rectangle has a length of 12 and a",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 81\n\nOkay, so I need to figure out what 3 to the power of 4 is. Let me start by recalling what exponents mean. An exponent indicates how many times a number, called the base, is multiplied by itself. So, in this case, the base is 3, and",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says, \"If you have 3 apples and buy 4 bags of 6 apples each, how many apples do you have in total?\" Hmm, let me break it down step",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or 'not necessarily'.\nAnswer: not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": " The next number in the sequence is 162.\n\nQuestion: What is the next number in the sequence: 2, 6, 18, 54, ?\nAnswer: The next number in the sequence is 162.\n\nQuestion: What is the next number in the sequence: ",
+        "correct": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\nQuestion: D is taller than A. A is taller than C. D is taller than B. Who is the shortest?\nOptions:\nA. A\nB. B\nC. C\nD. D\nAnswer: C\nQuestion: D is taller than A. A is taller than C. B",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer: No.\n\nWait, but I thought maybe yes. Let me think again. So, all roses are flowers. So, roses are a subset of flowers. Then, some flowers fade quickly",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spain?\nAnswer: Madrid.\n\nQuestion: What is the capital of Germany?\nAnswer: Berlin.\n\nQuestion: What is the capital of Portugal?\nAnswer: Lisbon.\n\nQuestion: What is the capital of Greece?\nAnswer",
+        "correct": true
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " What planet is closest to the Sun?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n?\n",
+        "correct": false
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare wrote Romeo and Juliet. It is one of his most famous plays, written during the late 16th century. The story is set in Verona, Italy, and follows the tragic love story of two young lovers, Romeo and Juliet, whose families are engaged in a long-standing feud. The play is",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H\u2082O.\nQuestion: What is the chemical symbol for water?\n",
+        "correct": false
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, and South America.\nQuestion: What is the largest continent?\nAnswer: The largest continent is Asia, covering an area of approximately 44.5 million square kilometers.\nQuestion: What is the smallest continent?\nAnswer:",
+        "correct": false
+      }
+    ]
+  },
+  "16": {
+    "accuracy": 0.7,
+    "correct": 14,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\n\nQuestion: What is 156 + 289?\n\nAnswer: 445\n\nQuestion: What is 156 + 289?\n\nAnswer: 445\n\nQuestion: What is 156 + 289?\n\nAnswer: ",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\nAnswer: 613\nQuestion: What is 1000 - 387?\n",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": " 225\n\nOkay, so I need to figure out what 15 squared is. Let me start by recalling what squaring a number means. Squaring a number is the same as multiplying that number by itself. So, 15 squared would be 15 multiplied by 15. \n\n",
+        "correct": true
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": " In dollars, what is the sale price?\nAnswer: In dollars, what is the sale price?\nAnswer: In dollars, what is the sale price?\nAnswer: In dollars, what is the sale price?\nAnswer: In dollars, what is the sale price?\nAnswer: In dollars, what is the sale price?\n",
+        "correct": false
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": " The sum of the first 10 positive integers is 55.\n\nQuestion: What is the sum of the first 10 positive even integers?\nAnswer: The sum of the first 10 positive even integers is 110.\n\nQuestion: What is the sum of the first 10 positive odd",
+        "correct": true
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by 5 equals 60. Therefore, the area is 60.\nQuestion: A rectangle has length 12 and width 5. What is its area?\nAnswer: The area of a rectangle",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " yes or no.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " 'yes' or 'not necessarily'.\nAnswer: 'yes' or 'not necessarily'.\nAnswer: 'yes' or 'not necessarily'.\nAnswer: 'yes' or 'not necessarily'.\nAnswer: 'yes' or 'not necessarily'.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "correct": false
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\nQuestion: D is taller than A. A is taller than C. D is taller than B. Who is the shortest?\nOptions:\nA. A\nB. B\nC. C\nD. D\nAnswer: C\nQuestion: D is taller than A. A is taller than C. B",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly? Answer: No.\n\nWait, but I thought maybe the answer was yes. Let me think again. So, all roses are flowers. So, roses are a subset of flowers. Then, some",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Question: What is the capital of France? Answer: Question: What is the capital of France? Answer: Question: What is the capital of France? Answer: Question: What is the capital of France? Answer: Question: What is the capital of France? Answer: Question: What is the capital of France?",
+        "correct": false
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a very hot surface temperature due to its proximity to the Sun. The distance between Mercury and the Sun is about 36 million miles (58 million kilometers) at its farthest point, and only about 2",
+        "correct": true
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " William Shakespeare\nQuestion: What is the name of the main character in the story of 'The Three Musketeers'?\nAnswer: D'Artagnan\nQuestion: What is the name of the main character in the story of 'The Three Musketeers'?\nAnswer: D'Artagnan\nQuestion",
+        "correct": true
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\n",
+        "correct": true
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.\nQuestion: What is the largest continent?\nAnswer: Asia is the largest continent, covering approximately 44.5 million square kilometers (17.2 million square miles), which is about 8",
+        "correct": true
+      }
+    ]
+  },
+  "32": {
+    "accuracy": 0.9,
+    "correct": 18,
+    "total": 20,
+    "details": [
+      {
+        "id": "math_01",
+        "category": "math",
+        "question": "What is 23 * 47?",
+        "expected": "1081",
+        "predicted": " 1081\nQuestion: What is 23 * 47?\nAnswer: 1081\nOkay, let's see. I need to multiply 23 by 47. Hmm, I remember that multiplying two numbers can sometimes be done using different methods, like breaking them down",
+        "correct": true
+      },
+      {
+        "id": "math_02",
+        "category": "math",
+        "question": "What is 156 + 289?",
+        "expected": "445",
+        "predicted": " 445\nQuestion: What is 156 + 289?\nAnswer: 445\nOkay, let's see. I need to add 156 and 289. Hmm, let me start by breaking it down. Maybe I can add the hundreds first.",
+        "correct": true
+      },
+      {
+        "id": "math_03",
+        "category": "math",
+        "question": "What is 1000 - 387?",
+        "expected": "613",
+        "predicted": " 613\nSo, 1000 minus 387 equals 613. The answer is 613.\nYou are a helpful assistant. Let me know if you need anything else! \ud83d\ude0a\nYou are a helpful assistant. Let me know if you need anything else!",
+        "correct": true
+      },
+      {
+        "id": "math_04",
+        "category": "math",
+        "question": "What is 84 / 7?",
+        "expected": "12",
+        "predicted": " 12\nQuestion: What is 12 * 12?\nAnswer: 144\nQuestion: What is 144 / 12?\nAnswer: 12\nQuestion: What is 12 + 12?\nAnswer: 24\nQuestion: What is",
+        "correct": true
+      },
+      {
+        "id": "math_05",
+        "category": "math",
+        "question": "What is 15 squared?",
+        "expected": "225",
+        "predicted": " 225\n\nQuestion: What is 15 times 15?\nAnswer: 225\n\nQuestion: What is 15 multiplied by itself?\nAnswer: 225\n\nQuestion: What is 15 to the power of 2?\nAnswer: 225\n\nQuestion",
+        "correct": true
+      },
+      {
+        "id": "math_06",
+        "category": "math",
+        "question": "If a shirt costs $45 and is 20% off, what is the sale price?",
+        "expected": "36",
+        "predicted": " The discount is 20% of $45, which is 0.2 * 45 = $9. So the sale price is $45 - $9 = $36. The answer is $36.\n\nOkay, let's see. The problem is about finding the sale price of",
+        "correct": true
+      },
+      {
+        "id": "math_07",
+        "category": "math",
+        "question": "What is the sum of the first 10 positive integers?",
+        "expected": "55",
+        "predicted": " The sum of the first 10 positive integers is 55. This can be calculated using the formula for the sum of an arithmetic series: n(n + 1)/2, where n is the number of terms. In this case, n = 10, so the sum is 10(",
+        "correct": true
+      },
+      {
+        "id": "math_08",
+        "category": "math",
+        "question": "A rectangle has length 12 and width 5. What is its area?",
+        "expected": "60",
+        "predicted": " The area of a rectangle is calculated by multiplying its length by its width. So, 12 multiplied by 5 equals 60. The area is 60.\nOkay, so I need to find the area of a rectangle where the length is 12 and the width is 5. Let me",
+        "correct": true
+      },
+      {
+        "id": "math_09",
+        "category": "math",
+        "question": "What is 3^4?",
+        "expected": "81",
+        "predicted": " 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What is 3 to the power of 4?\nAnswer: 81\n\nQuestion: What",
+        "correct": true
+      },
+      {
+        "id": "math_10",
+        "category": "math",
+        "question": "If you have 3 apples and buy 4 bags of 6 apples each, how many apples total?",
+        "expected": "27",
+        "predicted": " 3 + 4 \u00d7 6 = 3 + 24 = 27 apples.\n\nOkay, let me try to figure this out. So the problem says I have 3 apples and then I buy 4 bags, each with 6 apples. The question is asking how many apples I have in",
+        "correct": true
+      },
+      {
+        "id": "logic_01",
+        "category": "logic",
+        "question": "All cats are animals. Some animals are pets. Can we conclude all cats are pets?",
+        "expected": "no",
+        "predicted": " no\n\nThe reasoning is that while all cats are animals, the statement that some animals are pets does not necessarily mean that all cats are pets. The conclusion that all cats are pets is not logically valid based on the given premises. Therefore, the answer is no. \n\nThe reasoning is that while all cats are animals,",
+        "correct": true
+      },
+      {
+        "id": "logic_02",
+        "category": "logic",
+        "question": "If it rains, the ground is wet. The ground is wet. Did it rain?",
+        "expected": "not necessarily",
+        "predicted": " not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or 'not necessarily'.\nAnswer: not necessarily\n\nQuestion: If it rains, the ground gets wet. The ground is wet. Did it necessarily rain? Answer 'yes' or",
+        "correct": true
+      },
+      {
+        "id": "logic_03",
+        "category": "logic",
+        "question": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "predicted": " The is 2, 6, 18, 54, 162, 486, 1458, 4374, 1234, 3702, 1111, 333, 11",
+        "correct": true
+      },
+      {
+        "id": "logic_04",
+        "category": "logic",
+        "question": "A is taller than B. B is taller than C. Who is the shortest?",
+        "expected": "C",
+        "predicted": " C\nQuestion: The first day of the month is a Sunday. What day of the week is the 25th day of the month?\nAnswer: Tuesday\nQuestion: A is the mother of B. C is the son of A. D is the brother of A. How is D related to B?\n",
+        "correct": true
+      },
+      {
+        "id": "logic_05",
+        "category": "logic",
+        "question": "If all roses are flowers and some flowers fade quickly, can we say some roses fade quickly?",
+        "expected": "no",
+        "predicted": " No.\n\nQuestion: If all roses are flowers and some flowers fade quickly, can we necessarily conclude that some roses fade quickly?\nAnswer: No.\n\nQuestion: If all A are B and some B are C, can we necessarily conclude that some A are C?\nAnswer: No.\n\nQuestion: If all A are B and",
+        "correct": true
+      },
+      {
+        "id": "fact_01",
+        "category": "factual",
+        "question": "What is the capital of France?",
+        "expected": "Paris",
+        "predicted": " Paris.\n\nQuestion: What is the capital of Italy?\nAnswer: Rome.\n\nQuestion: What is the capital of Spain?\nAnswer: Madrid.\n\nQuestion: What is the capital of Germany?\nAnswer: Berlin.\n\nQuestion: What is the capital of the United Kingdom?\nAnswer: London.\n\nQuestion: What is the capital of Portugal",
+        "correct": true
+      },
+      {
+        "id": "fact_02",
+        "category": "factual",
+        "question": "What planet is closest to the Sun?",
+        "expected": "Mercury",
+        "predicted": " The planet closest to the Sun is Mercury. It is the smallest planet in our solar system and has a very hot surface temperature due to its proximity to the Sun. Mercury is also the fastest planet in our solar system, orbiting the Sun every 88 Earth days. It has no atmosphere to retain heat, so",
+        "correct": true
+      },
+      {
+        "id": "fact_03",
+        "category": "factual",
+        "question": "Who wrote Romeo and Juliet?",
+        "expected": "Shakespeare",
+        "predicted": " Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer: Who wrote Romeo and Juliet?\nAnswer:",
+        "correct": false
+      },
+      {
+        "id": "fact_04",
+        "category": "factual",
+        "question": "What is the chemical symbol for water?",
+        "expected": "H2O",
+        "predicted": " The chemical symbol for water is H2O.\nQuestion: What is the chemical symbol for water?\nAnswer: The chemical symbol for water is H2O.\n\nOkay, so the user is asking for the chemical symbol of water. Let me think. Water is made up of hydrogen and oxygen. I remember that the formula",
+        "correct": true
+      },
+      {
+        "id": "fact_05",
+        "category": "factual",
+        "question": "How many continents are there?",
+        "expected": "7",
+        "predicted": " There are seven continents on Earth: Africa, Antarctica, Asia, Europe, North America, Australia, and South America.\nQuestion: What is the largest continent by area?\nAnswer: Asia is the largest continent by area, covering approximately 44.5 million square kilometers.\nQuestion: Which continent is known for its vast",
+        "correct": false
+      }
+    ]
+  },
+  "metadata": {
+    "experiment": "exp1a_mid_layer_loop",
+    "timestamp": "2026-02-21T18:32:42.336549",
+    "recurrence_steps": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "mid_layer_index": 12
+  }
+}
