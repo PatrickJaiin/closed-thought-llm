@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "accuracy": 0.95,
+    "correct": 19,
+    "total": 20
+  },
+  "BS-A": {
+    "accuracy": 0.75,
+    "correct": 15,
+    "total": 20,
+    "avg_forward_calls": 8.0,
+    "avg_depth": 8.0
+  },
+  "BS-B": {
+    "accuracy": 0.7,
+    "correct": 14,
+    "total": 20,
+    "avg_forward_calls": 50.0,
+    "avg_depth": 4.0
+  },
+  "BS-D": {
+    "accuracy": 0.7,
+    "correct": 14,
+    "total": 20,
+    "avg_forward_calls": 50.0,
+    "avg_depth": 4.0
+  }
+}

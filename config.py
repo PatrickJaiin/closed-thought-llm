@@ -60,6 +60,13 @@ BENCHMARK_ARC_MAX_TOKENS = 16     # ARC just needs a letter
 BENCHMARK_DEFAULT_SUBSET = 50     # default subset for quick sanity checks
 LYS_MID_LAYER_INDEX = NUM_LAYERS // 2  # 18 — Lys et al. approx at 50% depth
 
+# ── Beam search settings (Phase 6) ────────────────────────────────────
+BEAM_WIDTH = 3                    # number of beams to keep after pruning
+BEAM_BRANCH_FACTOR = 5            # top-k candidates from logit lens per step
+BEAM_MAX_DEPTH = 8                # maximum branching depth
+BEAM_CONFIDENCE_THRESHOLD = 0.9   # halt when logit lens confidence exceeds this
+BEAM_INJECTION_ALPHA = 1.0        # scaling for token embedding injection
+
 # ── Wandb ──────────────────────────────────────────────────────────────
 WANDB_PROJECT = "closed-thought-llm"
 WANDB_ENABLED = False  # set True when ready to log
