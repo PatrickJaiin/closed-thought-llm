@@ -1,0 +1,20 @@
+{
+  "KV-0": {
+    "accuracy": 0.95,
+    "correct": 19,
+    "total": 20,
+    "avg_steps": 0.0
+  },
+  "KV-A": {
+    "accuracy": 0.85,
+    "correct": 17,
+    "total": 20,
+    "avg_steps": 4.0
+  },
+  "KV-B": {
+    "accuracy": 0.95,
+    "correct": 19,
+    "total": 20,
+    "avg_steps": 8.0
+  }
+}
