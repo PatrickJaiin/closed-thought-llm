@@ -4,7 +4,8 @@ Model loading, hidden state extraction, and partial forward pass utilities.
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from config import MODEL_NAME, DTYPE, DEVICE, LOAD_IN_4BIT
+import config as _cfg
+from config import MODEL_NAME, DTYPE, DEVICE
 
 
 def load_model(use_flash_attn=True, compile_model=False):
@@ -20,7 +21,7 @@ def load_model(use_flash_attn=True, compile_model=False):
     attn_impl = "flash_attention_2" if (use_flash_attn and DEVICE == "cuda") else None
     extra_kwargs = {"attn_implementation": attn_impl} if attn_impl else {}
 
-    if LOAD_IN_4BIT:
+    if _cfg.LOAD_IN_4BIT:
         quantization_config = BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_compute_dtype=DTYPE,

@@ -682,6 +682,8 @@ def main():
                         help="Disable Flash Attention 2")
     parser.add_argument("--compile", action="store_true",
                         help="Use torch.compile for faster repeated forwards")
+    parser.add_argument("--no-quantize", action="store_true",
+                        help="Disable 4-bit quantization (use fp16 instead)")
     args = parser.parse_args()
 
     configs = [c.strip() for c in args.configs.split(",")]
@@ -690,6 +692,13 @@ def main():
     print("Experiment 7B: Full-Layer KV Recurrence + KV-Aware Generation")
     print("=" * 60)
     print(f"  Configs: {configs}")
+
+    if args.no_quantize:
+        import config
+        config.LOAD_IN_4BIT = False
+        print("  Quantization: DISABLED (fp16)")
+    else:
+        print(f"  Quantization: {'4-bit NF4' if LOAD_IN_4BIT else 'off'}")
 
     print("\nLoading model...")
     model, tokenizer = load_model(

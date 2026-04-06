@@ -22,6 +22,7 @@ else:
     DEVICE = "cpu"
 
 # bitsandbytes 4-bit only works on CUDA; on MPS/CPU we load in fp16
+# Override with --no-quantize flag in experiment scripts
 LOAD_IN_4BIT = DEVICE == "cuda"
 
 # Qwen3-8B architecture constants
