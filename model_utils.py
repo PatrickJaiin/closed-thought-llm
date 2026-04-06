@@ -7,9 +7,18 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from config import MODEL_NAME, DTYPE, DEVICE, LOAD_IN_4BIT
 
 
-def load_model():
-    """Load Qwen3-8B with tokenizer. Returns (model, tokenizer)."""
+def load_model(use_flash_attn=True, compile_model=False):
+    """Load Qwen3-8B with tokenizer. Returns (model, tokenizer).
+
+    Args:
+        use_flash_attn: Use Flash Attention 2 if available (CUDA only, ~1.5-2x speedup).
+        compile_model: Apply torch.compile for faster repeated forward passes.
+    """
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
+
+    # Flash Attention 2 only works on CUDA with Ampere+ GPUs
+    attn_impl = "flash_attention_2" if (use_flash_attn and DEVICE == "cuda") else None
+    extra_kwargs = {"attn_implementation": attn_impl} if attn_impl else {}
 
     if LOAD_IN_4BIT:
         quantization_config = BitsAndBytesConfig(
@@ -22,16 +31,28 @@ def load_model():
             quantization_config=quantization_config,
             device_map="auto",
             trust_remote_code=True,
+            **extra_kwargs,
         )
-    else:
+    elif DEVICE == "mps":
         model = AutoModelForCausalLM.from_pretrained(
             MODEL_NAME,
             dtype=DTYPE,
+            trust_remote_code=True,
+        ).to(DEVICE)
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            MODEL_NAME,
+            torch_dtype=DTYPE,
             device_map="auto",
             trust_remote_code=True,
+            **extra_kwargs,
         )
 
     model.eval()
+
+    if compile_model and DEVICE == "cuda":
+        model = torch.compile(model, mode="reduce-overhead")
+
     return model, tokenizer
 
 

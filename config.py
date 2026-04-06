@@ -13,8 +13,16 @@ RESULTS_DIR.mkdir(exist_ok=True)
 # ── Model ──────────────────────────────────────────────────────────────
 MODEL_NAME = "Qwen/Qwen3-8B"
 DTYPE = torch.float16
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-LOAD_IN_4BIT = True  # 8B model in fp16 ~16GB; laptop 4090 has 17GB → use 4-bit (~5GB)
+
+if torch.cuda.is_available():
+    DEVICE = "cuda"
+elif torch.backends.mps.is_available():
+    DEVICE = "mps"
+else:
+    DEVICE = "cpu"
+
+# bitsandbytes 4-bit only works on CUDA; on MPS/CPU we load in fp16
+LOAD_IN_4BIT = DEVICE == "cuda"
 
 # Qwen3-8B architecture constants
 NUM_LAYERS = 36

@@ -6,3 +6,4 @@ wandb
 matplotlib
 scikit-learn
 numpy
+flash-attn>=2.5.0  # optional: ~2x attention speedup on Ampere+ GPUs (pip install flash-attn --no-build-isolation)

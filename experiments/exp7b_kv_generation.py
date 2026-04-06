@@ -277,11 +277,64 @@ CONFIGS = {
 ALL_CONFIGS = list(CONFIGS.keys())
 
 
-def run_single_item(model, tokenizer, config_name, cfg, prompt_text, max_tokens):
-    """Run a single config on a single prompt."""
+def _baseline_forward(model, tokenizer, prompt_text, max_tokens):
+    """Run baseline forward pass, returning answer + cached intermediate state.
+
+    Returns (answer, cache_dict) where cache_dict has:
+        - input_ids, attention_mask, h_baseline, kv_cache, prompt_len, baseline_logits
+    Gated/KL/mass configs can reuse these instead of re-computing.
+    """
+    inputs = tokenizer(prompt_text, return_tensors="pt").to(DEVICE)
+    input_ids = inputs.input_ids
+
+    with torch.no_grad():
+        outputs = model.model(
+            input_ids=input_ids,
+            attention_mask=inputs.attention_mask,
+            use_cache=True,
+        )
+        h_baseline = outputs.last_hidden_state[:, -1:, :]
+        kv_cache = outputs.past_key_values
+        prompt_len = input_ids.shape[1]
+
+        h_normed = model.model.norm(h_baseline)
+        baseline_logits = model.lm_head(h_normed)
+
+        output = model.generate(
+            input_ids=input_ids,
+            max_new_tokens=max_tokens,
+            do_sample=False,
+            temperature=None,
+            top_p=None,
+        )
+        answer = tokenizer.decode(
+            output[0][input_ids.shape[1]:], skip_special_tokens=True
+        )
+
+    cache = {
+        "input_ids": input_ids,
+        "attention_mask": inputs.attention_mask,
+        "h_baseline": h_baseline,
+        "kv_cache": kv_cache,
+        "prompt_len": prompt_len,
+        "baseline_logits": baseline_logits,
+        "baseline_answer": answer,
+    }
+    return answer, cache
+
+
+def run_single_item(model, tokenizer, config_name, cfg, prompt_text, max_tokens,
+                    baseline_cache=None):
+    """Run a single config on a single prompt.
+
+    If baseline_cache is provided (from _baseline_forward), gated configs
+    reuse it instead of re-computing the baseline forward pass.
+    """
     ctype = cfg["type"]
 
     if ctype == "baseline":
+        if baseline_cache:
+            return {"answer": baseline_cache["baseline_answer"], "n_steps_taken": 0}
         inputs = tokenizer(prompt_text, return_tensors="pt").to(DEVICE)
         with torch.no_grad():
             output = model.generate(
@@ -443,10 +496,23 @@ def run_eval_prompts(model, tokenizer, configs_to_run):
 
 
 def run_benchmark(model, tokenizer, benchmark_name, configs_to_run, items, output_dir):
-    """Run on benchmark dataset."""
+    """Run on benchmark dataset.
+
+    Optimized: pre-computes baseline forward pass per item and shares it across
+    all configs that need it (gated, KL, answer_mass, baseline), avoiding
+    redundant tokenization and forward passes.
+    """
     max_tokens = (
         BENCHMARK_GSM8K_MAX_TOKENS if benchmark_name == "gsm8k"
         else BENCHMARK_ARC_MAX_TOKENS
+    )
+
+    # Determine which configs need a baseline cache
+    _NEEDS_BASELINE = {"baseline", "kv_gated", "kl_gated", "answer_mass_gated",
+                       "first_token_override"}
+    any_needs_baseline = any(
+        CONFIGS[c]["type"] in _NEEDS_BASELINE
+        for c in configs_to_run if c in CONFIGS
     )
 
     all_results = {}
@@ -488,8 +554,16 @@ def run_benchmark(model, tokenizer, benchmark_name, configs_to_run, items, outpu
                 continue
 
             try:
+                # Pre-compute baseline if this config type benefits from it
+                baseline_cache = None
+                if cfg["type"] in _NEEDS_BASELINE:
+                    _, baseline_cache = _baseline_forward(
+                        model, tokenizer, item.prompt, max_tokens
+                    )
+
                 result = run_single_item(
-                    model, tokenizer, config_name, cfg, item.prompt, max_tokens
+                    model, tokenizer, config_name, cfg, item.prompt, max_tokens,
+                    baseline_cache=baseline_cache,
                 )
 
                 raw_answer = result["answer"]
@@ -540,6 +614,9 @@ def run_benchmark(model, tokenizer, benchmark_name, configs_to_run, items, outpu
                     "steps": 0,
                     "error": True,
                 })
+
+            # Free baseline cache tensors
+            del baseline_cache
 
             if len(details) % 10 == 0:
                 _save_results(results_path, existing, config_key, config_name,
@@ -601,6 +678,10 @@ def main():
     parser.add_argument("--configs", type=str, default=",".join(ALL_CONFIGS))
     parser.add_argument("--subset", type=int, default=None)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--no-flash-attn", action="store_true",
+                        help="Disable Flash Attention 2")
+    parser.add_argument("--compile", action="store_true",
+                        help="Use torch.compile for faster repeated forwards")
     args = parser.parse_args()
 
     configs = [c.strip() for c in args.configs.split(",")]
@@ -611,7 +692,10 @@ def main():
     print(f"  Configs: {configs}")
 
     print("\nLoading model...")
-    model, tokenizer = load_model()
+    model, tokenizer = load_model(
+        use_flash_attn=not args.no_flash_attn,
+        compile_model=args.compile,
+    )
     print("Model loaded.\n")
 
     eval_results = run_eval_prompts(model, tokenizer, configs)
